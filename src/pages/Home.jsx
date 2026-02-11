@@ -17,6 +17,7 @@ import PricingSection from "@/components/landing/PricingSection";
 import FAQSection from "@/components/landing/FAQSection";
 import FooterSection from "@/components/landing/FooterSection";
 import FloatingWhatsApp from "@/components/landing/FloatingWhatsApp";
+import ExportHTMLButton from "@/components/landing/ExportHTMLButton";
 
 export default function Home() {
   return (
@@ -39,6 +40,7 @@ export default function Home() {
       <FAQSection />
       <FooterSection />
       <FloatingWhatsApp />
+      <ExportHTMLButton />
     </div>
   );
 }
