@@ -9,8 +9,6 @@ const benefits = [
   { icon: ShieldCheck, text: "Kurangkan risiko jangkitan bakteria & kulat" },
   { icon: Zap, text: "Tingkatkan sensitiviti & hasilkan pelincir semulajadi" },
   { icon: Moon, text: "Tidur lebih nyenyak, kurangkan stress & anxiety" },
-  { icon: Baby, text: "Bantu ikhtiar hamil (TTC) & seimbangkan kitaran haid" },
-  { icon: Leaf, text: "Kurangkan sakit senggugut & lancarkan period" },
 ];
 
 export default function BenefitsSection() {
@@ -36,7 +34,7 @@ export default function BenefitsSection() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {benefits.map((item, i) => (
             <motion.div
               key={i}
