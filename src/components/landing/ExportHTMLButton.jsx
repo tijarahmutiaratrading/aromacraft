@@ -94,6 +94,21 @@ export default function ExportHTMLButton() {
     <section class="section" style="background: white;">
         <div class="container">
             <div class="section-title">
+                <p class="section-subtitle">Pengguna Sebenar</p>
+                <h2 class="section-heading georgia">Ribuan Wanita Malaysia Dah Cuba</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="grid grid-3">
+                <div style="border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1);"><iframe width="100%" height="250" src="https://www.youtube.com/embed/2n_l-sCKYig" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+                <div style="border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1);"><iframe width="100%" height="250" src="https://www.youtube.com/embed/CbYXGLesKfI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+                <div style="border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1);"><iframe width="100%" height="250" src="https://www.youtube.com/embed/GRKK3RxANS0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            </div>
+            <div style="text-align: center; margin-top: 48px;"><div style="display: inline-flex; align-items: center; gap: 8px; background: white; padding: 12px 24px; border-radius: 50px; border: 1px solid #FCEDF0; box-shadow: 0 4px 12px rgba(0,0,0,0.08);"><span style="font-size: 1.25rem;">👥</span><span style="font-size: 0.875rem; color: #5C1A33; font-weight: 500;">2,847+ pengguna verified di Malaysia</span></div></div>
+        </div>
+    </section>
+    <section class="section" style="background: white;">
+        <div class="container">
+            <div class="section-title">
                 <p class="section-subtitle">Testimoni</p>
                 <h2 class="section-heading georgia">Apa Kata Pengguna Kami</h2>
                 <div class="divider"></div>
@@ -112,6 +127,84 @@ export default function ExportHTMLButton() {
                     <div class="testimonial-content"><p style="color: rgba(92, 26, 51, 0.7); font-size: 0.875rem; font-style: italic; margin-bottom: 16px;">"After i using MyWooman, mmg WOW 🤩 baru 1st time roll dkt private area!"</p><p style="color: rgba(92, 26, 51, 0.4); font-size: 0.75rem;">Verified Customer ✓</p></div>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="section" style="background: white;">
+        <div class="container">
+            <div class="section-title">
+                <p class="section-subtitle">Kandungan</p>
+                <h2 class="section-heading georgia">100% Certified Organic</h2>
+                <div class="divider"></div>
+                <p class="section-description">Dipilih dengan teliti dari sumber terbaik di seluruh dunia</p>
+            </div>
+            <div style="text-align: center; margin-bottom: 64px;"><div style="position: relative; display: inline-block; padding: 48px; background: linear-gradient(135deg, #FCEDF0 0%, rgba(248, 215, 224, 0.3) 100%); border-radius: 24px; border: 1px solid rgba(252, 237, 240, 0.4);"><img src="https://intimateperfume.com/wp-content/uploads/2024/11/MW-TW-1-1024x1024-1.png" alt="Wooman Product" style="width: 320px; height: 320px; object-fit: contain; filter: drop-shadow(0 20px 40px rgba(0,0,0,0.15));"></div></div>
+            <div class="grid grid-3">
+                <div class="card" style="text-align: center;"><div style="font-size: 2.5rem; margin-bottom: 20px;">🌺</div><p style="color: #C9A96E; font-size: 0.625rem; letter-spacing: 0.3em; text-transform: uppercase; margin-bottom: 8px;">Afrika</p><h3 style="font-size: 1rem; color: #5C1A33; margin-bottom: 12px; font-weight: 500;">African Pelargonium Graveolens</h3><p style="color: rgba(92, 26, 51, 0.45); font-size: 0.875rem; line-height: 1.6;">Minyak pati organik yang membantu seimbangkan hormon dan menenangkan emosi wanita.</p></div>
+                <div class="card" style="text-align: center;"><div style="font-size: 2.5rem; margin-bottom: 20px;">🫒</div><p style="color: #C9A96E; font-size: 0.625rem; letter-spacing: 0.3em; text-transform: uppercase; margin-bottom: 8px;">Timur Tengah</p><h3 style="font-size: 1rem; color: #5C1A33; margin-bottom: 12px; font-weight: 500;">Middle Eastern Olea Europaea</h3><p style="color: rgba(92, 26, 51, 0.45); font-size: 0.875rem; line-height: 1.6;">Minyak zaitun organik premium yang melembapkan dan menutrisi kulit dari dalam.</p></div>
+                <div class="card" style="text-align: center;"><div style="font-size: 2.5rem; margin-bottom: 20px;">🥥</div><p style="color: #C9A96E; font-size: 0.625rem; letter-spacing: 0.3em; text-transform: uppercase; margin-bottom: 8px;">Filipina</p><h3 style="font-size: 1rem; color: #5C1A33; margin-bottom: 12px; font-weight: 500;">Philippines Coco Nucifera</h3><p style="color: rgba(92, 26, 51, 0.45); font-size: 0.875rem; line-height: 1.6;">Minyak kelapa organik dengan sifat antibakteria semulajadi untuk perlindungan.</p></div>
+            </div>
+        </div>
+    </section>
+    <section class="section" style="background: linear-gradient(to bottom, white, rgba(252, 237, 240, 0.2));">
+        <div class="container">
+            <div class="section-title">
+                <p class="section-subtitle">Cara Guna</p>
+                <h2 class="section-heading georgia">Pelbagai Kegunaan</h2>
+                <div class="divider"></div>
+                <p class="section-description">Satu produk, banyak manfaat untuk sis</p>
+            </div>
+            <div class="grid grid-2">
+                <div class="card"><div style="width: 56px; height: 56px; background: #FCEDF0; border-radius: 50%; display: flex; align-items: center; justify-center; margin-bottom: 16px;"><span style="font-size: 1.5rem;">💧</span></div><h3 style="font-size: 1.25rem; color: #5C1A33; margin-bottom: 12px; font-weight: 300;" class="georgia">Miss V Kering</h3><p style="color: rgba(92, 26, 51, 0.6); font-size: 0.875rem; line-height: 1.6;">Roll pada kawasan Miss V dan sebelum bersama untuk mengembalikan kebasahan.</p></div>
+                <div class="card"><div style="width: 56px; height: 56px; background: #FCEDF0; border-radius: 50%; display: flex; align-items: center; justify-center; margin-bottom: 16px;"><span style="font-size: 1.5rem;">💓</span></div><h3 style="font-size: 1.25rem; color: #5C1A33; margin-bottom: 12px; font-weight: 300;" class="georgia">Mati Putik & Hilang Nafsu</h3><p style="color: rgba(92, 26, 51, 0.6); font-size: 0.875rem; line-height: 1.6;">Roll setiap hari pada nadi & bahagian uterus (3 jari di bawah pusat). Bantu naikkan mood untuk bersama.</p></div>
+                <div class="card"><div style="width: 56px; height: 56px; background: #FCEDF0; border-radius: 50%; display: flex; align-items: center; justify-center; margin-bottom: 16px;"><span style="font-size: 1.5rem;">🌙</span></div><h3 style="font-size: 1.25rem; color: #5C1A33; margin-bottom: 12px; font-weight: 300;" class="georgia">Deep Sleep & Kurangkan Stress</h3><p style="color: rgba(92, 26, 51, 0.6); font-size: 0.875rem; line-height: 1.6;">Roll di bahagian nadi, belakang telinga, belakang leher, dahi & kening. Lakukan kaedah cupping untuk kesan maksimum.</p></div>
+                <div class="card"><div style="width: 56px; height: 56px; background: #FCEDF0; border-radius: 50%; display: flex; align-items: center; justify-center; margin-bottom: 16px;"><span style="font-size: 1.5rem;">😊</span></div><h3 style="font-size: 1.25rem; color: #5C1A33; margin-bottom: 12px; font-weight: 300;" class="georgia">Kurangkan Sakit Senggugut</h3><p style="color: rgba(92, 26, 51, 0.6); font-size: 0.875rem; line-height: 1.6;">Roll pada bahagian uterus (anggaran 3 jari di bawah pusat) untuk melegakan kesakitan.</p></div>
+                <div class="card"><div style="width: 56px; height: 56px; background: #FCEDF0; border-radius: 50%; display: flex; align-items: center; justify-center; margin-bottom: 16px;"><span style="font-size: 1.5rem;">👶</span></div><h3 style="font-size: 1.25rem; color: #5C1A33; margin-bottom: 12px; font-weight: 300;" class="georgia">Ikhtiar Hamil (TTC)</h3><p style="color: rgba(92, 26, 51, 0.6); font-size: 0.875rem; line-height: 1.6;">Roll setiap hari pada nadi & bahagian uterus. Bantu seimbangkan hormon & pusingan haid.</p></div>
+                <div class="card"><div style="width: 56px; height: 56px; background: #FCEDF0; border-radius: 50%; display: flex; align-items: center; justify-center; margin-bottom: 16px;"><span style="font-size: 1.5rem;">✨</span></div><h3 style="font-size: 1.25rem; color: #5C1A33; margin-bottom: 12px; font-weight: 300;" class="georgia">Merawat Wajah & Kulit</h3><p style="color: rgba(92, 26, 51, 0.6); font-size: 0.875rem; line-height: 1.6;">Selepas bersihkan muka, roll pada tapak tangan. Tambah pelembap & sapu pada muka. Sesuai juga untuk eczema & jerawat.</p></div>
+            </div>
+            <div style="margin-top: 40px; padding: 20px; background: rgba(201, 169, 110, 0.1); border-radius: 12px; border: 1px solid rgba(201, 169, 110, 0.2);"><p style="color: #C9A96E; font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; text-align: center;">💡 Tip: Goncang botol sebelum guna untuk hasil optimum</p></div>
+        </div>
+    </section>
+    <section class="section" style="background: linear-gradient(to bottom, white, rgba(252, 237, 240, 0.2));">
+        <div class="container">
+            <div class="section-title">
+                <p class="section-subtitle">Transformasi Sebenar</p>
+                <h2 class="section-heading georgia">Hasil Yang Terbukti</h2>
+                <div class="divider"></div>
+                <p style="color: rgba(92, 26, 51, 0.6); max-width: 700px; margin: 24px auto 0; font-size: 0.875rem;">Ribuan wanita Malaysia dah rasai perubahan hidup dengan Wooman. Ini cerita sebenar mereka.</p>
+            </div>
+            <div class="grid grid-3" style="margin-bottom: 48px;">
+                <div class="card"><div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px;"><div style="display: flex; gap: 4px;">⭐⭐⭐⭐⭐</div><span style="background: rgb(240, 253, 244); color: rgb(22, 163, 74); font-size: 0.625rem; padding: 4px 8px; border-radius: 50px; font-weight: 500;">✓ Verified</span></div><p style="color: rgba(92, 26, 51, 0.7); font-size: 0.875rem; line-height: 1.6; font-style: italic; margin-bottom: 24px;">"Miss V kembali basah, hubungan dengan suami makin mesra setiap malam 💕"</p><div style="border-top: 1px solid #FCEDF0; padding-top: 16px; display: flex; justify-content: space-between;"><div><p style="font-size: 0.875rem; font-weight: 500; color: #5C1A33;">Siti, 32 tahun</p><p style="font-size: 0.75rem; color: rgba(92, 26, 51, 0.4);">Kuala Lumpur</p></div><div style="text-align: right;"><p style="font-size: 0.75rem; color: #C9A96E; font-weight: 500;">📈 2 minggu</p></div></div></div>
+                <div class="card"><div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px;"><div style="display: flex; gap: 4px;">⭐⭐⭐⭐⭐</div><span style="background: rgb(240, 253, 244); color: rgb(22, 163, 74); font-size: 0.625rem; padding: 4px 8px; border-radius: 50px; font-weight: 500;">✓ Verified</span></div><p style="color: rgba(92, 26, 51, 0.7); font-size: 0.875rem; line-height: 1.6; font-style: italic; margin-bottom: 24px;">"Senggugut berkurang 80%, mood stabil, tidur lena. Life changer!"</p><div style="border-top: 1px solid #FCEDF0; padding-top: 16px; display: flex; justify-content: space-between;"><div><p style="font-size: 0.875rem; font-weight: 500; color: #5C1A33;">Aida, 28 tahun</p><p style="font-size: 0.75rem; color: rgba(92, 26, 51, 0.4);">Johor Bahru</p></div><div style="text-align: right;"><p style="font-size: 0.75rem; color: #C9A96E; font-weight: 500;">📈 1 bulan</p></div></div></div>
+                <div class="card"><div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px;"><div style="display: flex; gap: 4px;">⭐⭐⭐⭐⭐</div><span style="background: rgb(240, 253, 244); color: rgb(22, 163, 74); font-size: 0.625rem; padding: 4px 8px; border-radius: 50px; font-weight: 500;">✓ Verified</span></div><p style="color: rgba(92, 26, 51, 0.7); font-size: 0.875rem; line-height: 1.6; font-style: italic; margin-bottom: 24px;">"Dari mati putik kepada turn on setiap kali. Suami pun perasan perubahan 🔥"</p><div style="border-top: 1px solid #FCEDF0; padding-top: 16px; display: flex; justify-space-between;"><div><p style="font-size: 0.875rem; font-weight: 500; color: #5C1A33;">Nurul, 35 tahun</p><p style="font-size: 0.75rem; color: rgba(92, 26, 51, 0.4);">Penang</p></div><div style="text-align: right;"><p style="font-size: 0.75rem; color: #C9A96E; font-weight: 500;">📈 3 minggu</p></div></div></div>
+            </div>
+            <div class="grid grid-2">
+                <div style="background: linear-gradient(135deg, #FCEDF0, white); padding: 24px; border-radius: 24px; border: 1px solid rgba(201, 169, 110, 0.2);"><img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/bf69f65e1_IMG_0795.jpg" alt="Happy Customers" style="width: 100%; height: 192px; object-fit: cover; border-radius: 16px; margin-bottom: 16px;"><div style="display: flex; align-items: center; justify-between;"><div><p style="font-size: 1.5rem; font-weight: bold; color: #5C1A33;">2,847+</p><p style="font-size: 0.875rem; color: rgba(92, 26, 51, 0.6);">Happy Customers</p></div><div style="font-size: 2.5rem;">🥰</div></div></div>
+                <div style="background: linear-gradient(135deg, rgb(240, 253, 244), white); padding: 24px; border-radius: 24px; border: 1px solid rgb(187, 247, 208);"><div style="width: 48px; height: 48px; background: rgb(34, 197, 94); border-radius: 50%; display: flex; align-items: center; justify-center; margin-bottom: 12px; color: white; font-weight: bold; font-size: 1.25rem;">98%</div><p style="font-size: 1.125rem; font-weight: 600; color: #5C1A33; margin-bottom: 4px;">Satisfaction Rate</p><p style="font-size: 0.875rem; color: rgba(92, 26, 51, 0.6); margin-bottom: 16px;">Dari ribuan pengguna verified</p><div style="display: flex; gap: 4px;">⭐⭐⭐⭐⭐</div></div>
+            </div>
+        </div>
+    </section>
+    <section class="section" style="background: white;">
+        <div class="container">
+            <div class="section-title">
+                <p class="section-subtitle">Sijil & Kelulusan</p>
+                <h2 class="section-heading georgia">Disahkan Selamat & Berkualiti</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="grid grid-3" style="margin-bottom: 48px;">
+                <div class="card" style="text-align: center;"><div style="width: 56px; height: 56px; background: #FCEDF0; border-radius: 50%; display: flex; align-items: center; justify-center; margin: 0 auto 16px;"><span style="font-size: 1.5rem;">🛡️</span></div><h3 style="font-size: 1rem; color: #5C1A33; margin-bottom: 8px; font-weight: 500;">KKM Approved</h3><p style="color: rgba(92, 26, 51, 0.5); font-size: 0.75rem;">Lulus ujian keselamatan KKM Malaysia</p></div>
+                <div class="card" style="text-align: center;"><div style="width: 56px; height: 56px; background: #FCEDF0; border-radius: 50%; display: flex; align-items: center; justify-center; margin: 0 auto 16px;"><span style="font-size: 1.5rem;">🏆</span></div><h3 style="font-size: 1rem; color: #5C1A33; margin-bottom: 8px; font-weight: 500;">Certified Organic</h3><p style="color: rgba(92, 26, 51, 0.5); font-size: 0.75rem;">100% bahan organik yang disahkan</p></div>
+                <div class="card" style="text-align: center;"><div style="width: 56px; height: 56px; background: #FCEDF0; border-radius: 50%; display: flex; align-items: center; justify-center; margin: 0 auto 16px;"><span style="font-size: 1.5rem;">✅</span></div><h3 style="font-size: 1rem; color: #5C1A33; margin-bottom: 8px; font-weight: 500;">Halal & Safe</h3><p style="color: rgba(92, 26, 51, 0.5); font-size: 0.75rem;">Selamat untuk kegunaan harian</p></div>
+            </div>
+            <div class="grid grid-3">
+                <div style="background: white; border-radius: 16px; padding: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); border: 1px solid #FCEDF0;"><img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/db195df60_IMG_0787.jpg" alt="Certificate 1" style="width: 100%; height: auto; object-fit: contain; border-radius: 8px;"></div>
+                <div style="background: white; border-radius: 16px; padding: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); border: 1px solid #FCEDF0;"><img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/66ec706b5_IMG_0786.jpg" alt="Certificate 2" style="width: 100%; height: auto; object-fit: contain; border-radius: 8px;"></div>
+                <div style="background: white; border-radius: 16px; padding: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); border: 1px solid #FCEDF0;"><img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/11a8c1222_IMG_0788.jpg" alt="Certificate 3" style="width: 100%; height: auto; object-fit: contain; border-radius: 8px;"></div>
+            </div>
+        </div>
+    </section>
+    <section class="section" style="background: linear-gradient(to bottom, rgb(240, 253, 244), white);">
+        <div class="container">
+            <div style="background: linear-gradient(135deg, rgb(34, 197, 94), rgb(16, 185, 129)); border-radius: 24px; padding: 56px 40px; text-align: center; color: white; position: relative; overflow: hidden; box-shadow: 0 20px 60px rgba(34, 197, 94, 0.3);"><div style="position: absolute; top: 0; right: 0; width: 256px; height: 256px; background: rgba(255,255,255,0.1); border-radius: 50%; filter: blur(60px);"></div><div style="position: absolute; bottom: 0; left: 0; width: 192px; height: 192px; background: rgba(255,255,255,0.1); border-radius: 50%; filter: blur(60px);"></div><div style="position: relative; z-index: 10;"><div style="width: 80px; height: 80px; background: rgba(255,255,255,0.2); border-radius: 50%; display: flex; align-items: center; justify-center; margin: 0 auto 24px;"><span style="font-size: 2.5rem;">🛡️</span></div><h2 style="font-size: 2rem; font-weight: bold; margin-bottom: 16px;" class="georgia">100% JAMINAN WANG KEMBALI</h2><div style="width: 64px; height: 2px; background: rgba(255,255,255,0.4); margin: 0 auto 24px;"></div><p style="font-size: 1.125rem; margin-bottom: 32px; max-width: 700px; margin-left: auto; margin-right: auto; line-height: 1.8;">Cuba Wooman selama <strong>30 hari</strong>. Kalau tak puas hati atau tak nampak hasil, kami pulangkan <strong>100% wang sis</strong> tanpa soalan.</p><div class="grid grid-3" style="gap: 24px; margin-top: 40px;"><div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border-radius: 16px; padding: 24px; border: 1px solid rgba(255,255,255,0.2);"><div style="font-size: 2rem; margin-bottom: 12px;">🔄</div><h3 style="font-weight: 600; margin-bottom: 8px;">30 Hari Cuba</h3><p style="font-size: 0.875rem; opacity: 0.9;">Masa yang cukup untuk rasa kesan penuh produk</p></div><div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border-radius: 16px; padding: 24px; border: 1px solid rgba(255,255,255,0.2);"><div style="font-size: 2rem; margin-bottom: 12px;">🔒</div><h3 style="font-weight: 600; margin-bottom: 8px;">No Questions Asked</h3><p style="font-size: 0.875rem; opacity: 0.9;">Proses refund mudah dan cepat</p></div><div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border-radius: 16px; padding: 24px; border: 1px solid rgba(255,255,255,0.2);"><div style="font-size: 2rem; margin-bottom: 12px;">😊</div><h3 style="font-weight: 600; margin-bottom: 8px;">Zero Risk</h3><p style="font-size: 0.875rem; opacity: 0.9;">Sis tak rugi apa-apa, semua risk on us</p></div></div><div style="margin-top: 40px; padding: 24px; background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border-radius: 16px; border: 1px solid rgba(255,255,255,0.2); max-width: 700px; margin-left: auto; margin-right: auto;"><p style="font-size: 0.875rem;"><strong>Mengapa kami berani buat jaminan ini?</strong><br>Sebab kami 100% yakin dengan kualiti Wooman. Ribuan wanita dah buktikan hasilnya. Sekarang giliran sis pula!</p></div></div></div>
         </div>
     </section>
     <section id="order" class="section" style="background: linear-gradient(to bottom, rgba(252, 237, 240, 0.2), white);">
