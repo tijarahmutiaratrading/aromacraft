@@ -64,19 +64,21 @@ export default function ProblemsSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: i * 0.1 }}
-              className="group relative p-8 md:p-10 rounded-2xl border border-gray-100 hover:border-[#C9A96E]/30 transition-all duration-500 hover:shadow-lg hover:shadow-[#FCEDF0]/50 overflow-hidden"
+              className="group relative rounded-2xl border border-gray-100 hover:border-[#C9A96E]/30 transition-all duration-500 hover:shadow-lg hover:shadow-[#FCEDF0]/50 overflow-hidden bg-white"
             >
-              <div className="absolute top-0 right-0 w-32 h-32 opacity-5 group-hover:opacity-10 transition-opacity">
-                <img src={item.image} alt={item.title} className="w-full h-full object-contain" />
+              <div className="w-full h-48 bg-gradient-to-br from-[#FCEDF0]/40 to-[#F8D7E0]/20 flex items-center justify-center p-6">
+                <img src={item.image} alt={item.title} className="w-32 h-32 object-contain drop-shadow-md" />
               </div>
-              <div
-                className="relative w-12 h-12 rounded-xl flex items-center justify-center mb-5 transition-transform duration-300 group-hover:scale-110"
-                style={{ backgroundColor: `${item.color}15` }}
-              >
-                <item.icon className="w-5 h-5" style={{ color: item.color }} />
+              <div className="p-8">
+                <div
+                  className="w-12 h-12 rounded-xl flex items-center justify-center mb-4 transition-transform duration-300 group-hover:scale-110"
+                  style={{ backgroundColor: `${item.color}15` }}
+                >
+                  <item.icon className="w-5 h-5" style={{ color: item.color }} />
+                </div>
+                <h3 className="text-lg font-medium text-[#5C1A33] mb-3">{item.title}</h3>
+                <p className="text-[#5C1A33]/50 text-sm leading-relaxed font-light">{item.desc}</p>
               </div>
-              <h3 className="relative text-lg font-medium text-[#5C1A33] mb-3">{item.title}</h3>
-              <p className="relative text-[#5C1A33]/50 text-sm leading-relaxed font-light">{item.desc}</p>
             </motion.div>
           ))}
         </div>

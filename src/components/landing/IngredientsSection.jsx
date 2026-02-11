@@ -46,17 +46,20 @@ export default function IngredientsSection() {
         </motion.div>
 
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="flex justify-center mb-12"
+          transition={{ duration: 0.7 }}
+          className="relative mb-16"
         >
-          <img
-            src="https://intimateperfume.com/wp-content/uploads/2024/11/MW-TW-1-1024x1024-1.png"
-            alt="Wooman Product"
-            className="w-64 h-64 object-contain drop-shadow-xl"
-          />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#FCEDF0]/30 via-[#F8D7E0]/20 to-[#FCEDF0]/30 rounded-3xl blur-3xl" />
+          <div className="relative bg-gradient-to-br from-[#FCEDF0]/20 to-white rounded-3xl p-12 border border-[#FCEDF0]/40">
+            <img
+              src="https://intimateperfume.com/wp-content/uploads/2024/11/MW-TW-1-1024x1024-1.png"
+              alt="Wooman Product"
+              className="w-80 h-80 mx-auto object-contain drop-shadow-2xl"
+            />
+          </div>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
