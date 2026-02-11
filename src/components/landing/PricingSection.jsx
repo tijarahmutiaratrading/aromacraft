@@ -73,10 +73,10 @@ export default function PricingSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: i * 0.12 }}
-              className={`relative rounded-2xl p-8 transition-all duration-500 ${
+              className={`relative rounded-3xl p-8 transition-all duration-500 ${
                 pkg.popular
                   ? "bg-[#5C1A33] text-white shadow-2xl shadow-[#5C1A33]/25 scale-[1.02] md:scale-105"
-                  : "bg-white border border-gray-100 hover:border-[#C9A96E]/30 hover:shadow-lg"
+                  : "bg-white border border-gray-100 hover:border-[#C9A96E]/30 hover:shadow-xl"
               }`}
             >
               {pkg.popular && (
