@@ -42,6 +42,19 @@ export default function ExportHTMLButton() {
         .faq-answer { max-height: 0; overflow: hidden; transition: all 0.3s; padding: 0 20px; }
         .faq-item.active .faq-answer { max-height: 200px; padding: 20px; }
         .footer { background: #5C1A33; color: white; padding: 80px 24px 40px; text-align: center; }
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        @keyframes slideInLeft { from { opacity: 0; transform: translateX(-20px); } to { opacity: 1; transform: translateX(0); } }
+        @keyframes slideInRight { from { opacity: 0; transform: translateX(20px); } to { opacity: 1; transform: translateX(0); } }
+        @keyframes scaleIn { from { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }
+        @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+        .animate { opacity: 0; }
+        .animate.show { animation: fadeInUp 0.7s ease forwards; }
+        .animate-fade.show { animation: fadeIn 0.7s ease forwards; }
+        .animate-scale.show { animation: scaleIn 0.6s ease forwards; }
+        .animate-left.show { animation: slideInLeft 0.6s ease forwards; }
+        .animate-right.show { animation: slideInRight 0.6s ease forwards; }
+        .btn-primary.pulse-btn { animation: pulse 2s ease-in-out infinite; }
         @media (min-width: 768px) { .hero-title { font-size: 4.5rem; } .section-heading { font-size: 2.5rem; } }
     </style>
 </head>
