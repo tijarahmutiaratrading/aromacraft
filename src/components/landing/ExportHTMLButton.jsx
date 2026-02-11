@@ -118,8 +118,9 @@ export default function ExportHTMLButton() {
         <div class="container">
             <div class="section-title">
                 <p class="section-subtitle">Pakej</p>
-                <h2 class="section-heading georgia">Pilih Pakej Sis</h2>
+                <h2 class="section-heading georgia">Pilih Pakej Terbaik Untuk Sis</h2>
                 <div class="divider"></div>
+                <p style="color: rgba(92, 26, 51, 0.6); font-size: 0.875rem; max-width: 700px; margin: 24px auto 0;"><span style="font-weight: 500; color: #5C1A33;">Free postage seluruh Malaysia.</span> Lebih banyak order, lebih banyak jimat! 💕</p>
             </div>
             <div class="grid grid-3">
                 <div class="pricing-card"><h3 style="color: #C9A96E; font-size: 0.875rem; margin-bottom: 8px;">1 Botol</h3><p style="font-size: 2rem; font-weight: 300; margin-bottom: 24px;" class="georgia">RM79</p><ul style="list-style: none; margin-bottom: 32px;"><li style="margin-bottom: 12px; font-size: 0.875rem;">✓ 1x Wooman Perfume</li><li style="margin-bottom: 12px; font-size: 0.875rem;">✓ Free Postage</li></ul><a href="https://intimateperfume.com/#beli" target="_blank" class="btn-primary" style="width: 100%; text-align: center;">Order</a></div>
