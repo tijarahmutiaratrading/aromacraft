@@ -1,10 +1,10 @@
 import React from "react";
-import { Download } from "lucide-react";
+import { Download, Copy } from "lucide-react";
+import { toast } from "sonner";
 
 export default function ExportHTMLButton() {
-  const handleExport = () => {
-    // Get the static HTML content
-    const htmlContent = `<!DOCTYPE html>
+  const getHTMLContent = () => {
+    return `<!DOCTYPE html>
 <html lang="ms">
 <head>
     <meta charset="UTF-8">
@@ -152,7 +152,10 @@ export default function ExportHTMLButton() {
     </script>
 </body>
 </html>`;
+  };
 
+  const handleExport = () => {
+    const htmlContent = getHTMLContent();
     // Create blob and download
     const blob = new Blob([htmlContent], { type: 'text/html' });
     const url = URL.createObjectURL(blob);
@@ -165,13 +168,31 @@ export default function ExportHTMLButton() {
     URL.revokeObjectURL(url);
   };
 
+  const handleCopy = () => {
+    const htmlContent = getHTMLContent();
+    navigator.clipboard.writeText(htmlContent).then(() => {
+      toast.success('HTML code copied to clipboard!');
+    }).catch(() => {
+      toast.error('Failed to copy HTML code');
+    });
+  };
+
   return (
-    <button
-      onClick={handleExport}
-      className="fixed bottom-24 right-6 md:right-8 z-40 w-14 h-14 bg-[#5C1A33] text-white rounded-full shadow-2xl flex items-center justify-center hover:bg-[#7A2345] transition-all duration-300 hover:scale-110 group"
-      title="Export HTML"
-    >
-      <Download className="w-6 h-6 group-hover:animate-bounce" />
-    </button>
+    <div className="fixed bottom-24 right-6 md:right-8 z-40 flex flex-col gap-3">
+      <button
+        onClick={handleCopy}
+        className="w-14 h-14 bg-[#C9A96E] text-white rounded-full shadow-2xl flex items-center justify-center hover:bg-[#B8963D] transition-all duration-300 hover:scale-110 group"
+        title="Copy HTML Code"
+      >
+        <Copy className="w-5 h-5 group-hover:scale-110 transition-transform" />
+      </button>
+      <button
+        onClick={handleExport}
+        className="w-14 h-14 bg-[#5C1A33] text-white rounded-full shadow-2xl flex items-center justify-center hover:bg-[#7A2345] transition-all duration-300 hover:scale-110 group"
+        title="Download HTML File"
+      >
+        <Download className="w-5 h-5 group-hover:animate-bounce" />
+      </button>
+    </div>
   );
 }
