@@ -42,7 +42,6 @@ export default function ExportHTMLButton() {
         .faq-answer { max-height: 0; overflow: hidden; transition: all 0.3s; padding: 0 20px; }
         .faq-item.active .faq-answer { max-height: 200px; padding: 20px; }
         .footer { background: #5C1A33; color: white; padding: 80px 24px 40px; text-align: center; }
-        .whatsapp-btn { position: fixed; bottom: 24px; right: 24px; width: 64px; height: 64px; background: #25D366; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 24px rgba(37, 211, 102, 0.4); z-index: 1000; }
         @media (min-width: 768px) { .hero-title { font-size: 4.5rem; } .section-heading { font-size: 2.5rem; } }
     </style>
 </head>
@@ -146,7 +145,6 @@ export default function ExportHTMLButton() {
         <a href="https://intimateperfume.com/#beli" target="_blank" class="btn-primary" style="background: #C9A96E;">Order Sekarang</a>
         <p style="margin-top: 40px; color: rgba(255, 255, 255, 0.2); font-size: 0.75rem;">© 2025 Wooman Intimate Perfume</p>
     </footer>
-    <a href="https://wa.me/60123456789?text=Hi,%20saya%20nak%20tanya%20tentang%20Wooman%20Perfume" target="_blank" class="whatsapp-btn"><span style="font-size: 1.75rem; color: white;">💬</span></a>
     <script>
         function toggleFAQ(button) { const item = button.parentElement; const isActive = item.classList.contains('active'); document.querySelectorAll('.faq-item').forEach(faq => { faq.classList.remove('active'); }); if (!isActive) { item.classList.add('active'); } }
         document.querySelectorAll('a[href^="#"]').forEach(anchor => { anchor.addEventListener('click', function (e) { e.preventDefault(); const target = document.querySelector(this.getAttribute('href')); if (target) { target.scrollIntoView({ behavior: 'smooth' }); } }); });
