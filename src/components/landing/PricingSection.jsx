@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Check, ShieldCheck, Truck, Gift } from "lucide-react";
+import { Check, ShieldCheck, Truck, Gift, Lock, CreditCard, Shield } from "lucide-react";
 
 const packages = [
   {
@@ -119,14 +119,21 @@ export default function PricingSection() {
                 href="https://intimateperfume.com/#beli"
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`block w-full text-center py-3.5 rounded-full text-sm tracking-[0.15em] uppercase transition-all duration-300 ${
+                className={`block w-full text-center py-3.5 rounded-full text-sm tracking-[0.15em] uppercase transition-all duration-300 hover:scale-105 ${
                   pkg.popular
-                    ? "bg-[#C9A96E] text-white hover:bg-[#B8963D]"
+                    ? "bg-[#C9A96E] text-white hover:bg-[#B8963D] shadow-lg"
                     : "bg-[#5C1A33] text-white hover:bg-[#7A2345]"
                 }`}
               >
                 Order Sekarang
               </a>
+              
+              <div className="mt-4 flex items-center justify-center gap-2">
+                <Lock className={`w-3 h-3 ${pkg.popular ? "text-white/60" : "text-[#5C1A33]/40"}`} />
+                <span className={`text-xs ${pkg.popular ? "text-white/60" : "text-[#5C1A33]/40"}`}>
+                  Secure Checkout
+                </span>
+              </div>
             </motion.div>
           ))}
         </div>
@@ -137,18 +144,43 @@ export default function PricingSection() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7, delay: 0.4 }}
-          className="flex flex-wrap items-center justify-center gap-8 mt-14"
+          className="mt-14 space-y-6"
         >
-          {[
-            { icon: ShieldCheck, text: "Selamat & Organik" },
-            { icon: Truck, text: "Free Postage" },
-            { icon: Gift, text: "Free Gift" },
-          ].map((item, i) => (
-            <div key={i} className="flex items-center gap-2.5">
-              <item.icon className="w-4 h-4 text-[#C9A96E]" />
-              <span className="text-[#5C1A33]/50 text-xs tracking-wider">{item.text}</span>
+          <div className="flex flex-wrap items-center justify-center gap-8">
+            {[
+              { icon: ShieldCheck, text: "Selamat & Organik" },
+              { icon: Truck, text: "Free Postage" },
+              { icon: Gift, text: "Free Gift" },
+            ].map((item, i) => (
+              <div key={i} className="flex items-center gap-2.5">
+                <item.icon className="w-4 h-4 text-[#C9A96E]" />
+                <span className="text-[#5C1A33]/50 text-xs tracking-wider">{item.text}</span>
+              </div>
+            ))}
+          </div>
+
+          {/* Payment Security */}
+          <div className="flex flex-wrap items-center justify-center gap-6">
+            <div className="flex items-center gap-2 bg-gray-50 px-4 py-2 rounded-full border border-gray-100">
+              <Lock className="w-4 h-4 text-green-600" />
+              <span className="text-xs text-gray-600 font-medium">SSL Encrypted</span>
             </div>
-          ))}
+            <div className="flex items-center gap-2 bg-gray-50 px-4 py-2 rounded-full border border-gray-100">
+              <Shield className="w-4 h-4 text-blue-600" />
+              <span className="text-xs text-gray-600 font-medium">Secure Payment</span>
+            </div>
+            <div className="flex items-center gap-2 bg-gray-50 px-4 py-2 rounded-full border border-gray-100">
+              <CreditCard className="w-4 h-4 text-purple-600" />
+              <span className="text-xs text-gray-600 font-medium">All Cards Accepted</span>
+            </div>
+          </div>
+
+          {/* Delivery Info */}
+          <div className="text-center">
+            <p className="text-xs text-[#5C1A33]/50">
+              📦 Dihantar dalam <span className="font-semibold text-[#5C1A33]">1-3 hari bekerja</span> (Semenanjung) | 3-5 hari (Sabah/Sarawak)
+            </p>
+          </div>
         </motion.div>
       </div>
     </section>
