@@ -8,24 +8,28 @@ const problems = [
     title: "Mati Putik & Hilang Nafsu",
     desc: "Hilang ghairah semasa hubungan intim. Masalah ini sering memberi kesan kepada hubungan dengan suami.",
     color: "#E8A0BF",
+    image: "https://intimateperfume.com/wp-content/uploads/2024/11/Kerap-sakit-belakang__20250417_162841_0000.png",
   },
   {
     icon: Droplets,
     title: "Miss V Kering",
     desc: "Rasa tak selesa, gatal, pedih atau sakit semasa bersama suami. Mengganggu keyakinan diri.",
     color: "#C9A96E",
+    image: "https://intimateperfume.com/wp-content/uploads/2024/11/Kerap-sakit-belakang__20250417_162841_0002.png",
   },
   {
     icon: Brain,
     title: "Selalu Moody & Stress",
     desc: "Emosi mudah terganggu, malas nak buat kerja. Dalaman rasa tak stabil dan tertekan.",
     color: "#B8A0D2",
+    image: "https://intimateperfume.com/wp-content/uploads/2024/11/Kerap-sakit-belakang__20250417_162841_0001.png",
   },
   {
     icon: Heart,
     title: "Sakit Senggugut",
     desc: "Kerap mengalami sakit di bahagian bawah perut semasa haid, mengganggu aktiviti harian.",
     color: "#E8A0BF",
+    image: "https://intimateperfume.com/wp-content/uploads/2024/11/Kerap-sakit-belakang__20250417_162841_0003.png",
   },
 ];
 
@@ -60,16 +64,19 @@ export default function ProblemsSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: i * 0.1 }}
-              className="group relative p-8 md:p-10 rounded-2xl border border-gray-100 hover:border-[#C9A96E]/30 transition-all duration-500 hover:shadow-lg hover:shadow-[#FCEDF0]/50"
+              className="group relative p-8 md:p-10 rounded-2xl border border-gray-100 hover:border-[#C9A96E]/30 transition-all duration-500 hover:shadow-lg hover:shadow-[#FCEDF0]/50 overflow-hidden"
             >
+              <div className="absolute top-0 right-0 w-32 h-32 opacity-5 group-hover:opacity-10 transition-opacity">
+                <img src={item.image} alt={item.title} className="w-full h-full object-contain" />
+              </div>
               <div
-                className="w-12 h-12 rounded-xl flex items-center justify-center mb-5 transition-transform duration-300 group-hover:scale-110"
+                className="relative w-12 h-12 rounded-xl flex items-center justify-center mb-5 transition-transform duration-300 group-hover:scale-110"
                 style={{ backgroundColor: `${item.color}15` }}
               >
                 <item.icon className="w-5 h-5" style={{ color: item.color }} />
               </div>
-              <h3 className="text-lg font-medium text-[#5C1A33] mb-3">{item.title}</h3>
-              <p className="text-[#5C1A33]/50 text-sm leading-relaxed font-light">{item.desc}</p>
+              <h3 className="relative text-lg font-medium text-[#5C1A33] mb-3">{item.title}</h3>
+              <p className="relative text-[#5C1A33]/50 text-sm leading-relaxed font-light">{item.desc}</p>
             </motion.div>
           ))}
         </div>

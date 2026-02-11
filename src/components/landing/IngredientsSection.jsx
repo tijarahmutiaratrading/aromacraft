@@ -45,6 +45,20 @@ export default function IngredientsSection() {
           </p>
         </motion.div>
 
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="flex justify-center mb-12"
+        >
+          <img
+            src="https://intimateperfume.com/wp-content/uploads/2024/11/MW-TW-1-1024x1024-1.png"
+            alt="Wooman Product"
+            className="w-64 h-64 object-contain drop-shadow-xl"
+          />
+        </motion.div>
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {ingredients.map((item, i) => (
             <motion.div

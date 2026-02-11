@@ -5,6 +5,7 @@ import BenefitsSection from "@/components/landing/BenefitsSection";
 import IngredientsSection from "@/components/landing/IngredientsSection";
 import UsageSection from "@/components/landing/UsageSection";
 import TestimonialsSection from "@/components/landing/TestimonialsSection";
+import CertificateSection from "@/components/landing/CertificateSection";
 import PricingSection from "@/components/landing/PricingSection";
 import FAQSection from "@/components/landing/FAQSection";
 import FooterSection from "@/components/landing/FooterSection";
@@ -18,6 +19,7 @@ export default function Home() {
       <IngredientsSection />
       <UsageSection />
       <TestimonialsSection />
+      <CertificateSection />
       <PricingSection />
       <FAQSection />
       <FooterSection />

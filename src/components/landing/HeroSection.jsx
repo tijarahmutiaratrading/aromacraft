@@ -81,6 +81,19 @@ export default function HeroSection() {
         </motion.p>
 
         <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8, delay: 0.55 }}
+          className="mb-8"
+        >
+          <img
+            src="https://intimateperfume.com/wp-content/uploads/2024/11/MW-TW-1-1024x1024-1.png"
+            alt="Wooman Perfume"
+            className="w-48 h-48 md:w-56 md:h-56 mx-auto object-contain drop-shadow-2xl"
+          />
+        </motion.div>
+
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
