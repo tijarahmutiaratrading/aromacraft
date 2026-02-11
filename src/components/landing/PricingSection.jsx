@@ -5,36 +5,49 @@ import { Check, ShieldCheck, Truck, Gift, Lock, CreditCard, Shield } from "lucid
 const packages = [
   {
     name: "1 Botol",
-    price: "RM89",
+    price: "RM79",
     originalPrice: "RM120",
     desc: "Sesuai untuk cuba",
     features: ["1x Wooman Perfume (10ml)", "Free Postage", "Manual Penggunaan"],
     popular: false,
   },
   {
+    name: "2 Botol",
+    price: "RM150",
+    originalPrice: "RM240",
+    desc: "Best value",
+    features: [
+      "2x Wooman Perfume (10ml)",
+      "Free Postage",
+      "Manual Penggunaan",
+      "Jimat RM90",
+    ],
+    popular: false,
+  },
+  {
     name: "3 Botol",
-    price: "RM199",
+    price: "RM200",
     originalPrice: "RM360",
     desc: "Paling popular",
     features: [
       "3x Wooman Perfume (10ml)",
       "Free Postage",
       "Manual Penggunaan",
-      "Jimat RM161",
+      "Jimat RM160",
       "Free Gift Exclusive",
     ],
     popular: true,
   },
   {
     name: "5 Botol",
-    price: "RM289",
+    price: "RM300",
     originalPrice: "RM600",
     desc: "Paling berbaloi",
     features: [
       "5x Wooman Perfume (10ml)",
       "Free Postage",
       "Manual Penggunaan",
-      "Jimat RM311",
+      "Jimat RM300",
       "Free Gift Exclusive",
       "Priority Support",
     ],
@@ -65,7 +78,7 @@ export default function PricingSection() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {packages.map((pkg, i) => (
             <motion.div
               key={i}
