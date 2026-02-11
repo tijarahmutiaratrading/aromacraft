@@ -89,7 +89,7 @@ export default function HeroSection() {
           <img
             src="https://intimateperfume.com/wp-content/uploads/2024/11/MW-TW-1-1024x1024-1.png"
             alt="Wooman Perfume"
-            className="w-72 h-72 md:w-96 md:h-96 mx-auto object-contain drop-shadow-2xl"
+            className="w-72 h-72 md:w-96 md:h-96 mx-auto object-contain drop-shadow-2xl mix-blend-multiply"
           />
         </motion.div>
 

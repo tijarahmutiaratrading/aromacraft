@@ -86,7 +86,7 @@ export default function CertificateSection() {
                 <img
                   src="https://intimateperfume.com/wp-content/uploads/2024/11/MW-TW-1-1024x1024-1.png"
                   alt="Wooman Certificate"
-                  className="relative w-64 h-64 object-contain drop-shadow-2xl"
+                  className="relative w-64 h-64 object-contain drop-shadow-2xl mix-blend-multiply"
                 />
               </div>
             </div>

@@ -66,8 +66,8 @@ export default function ProblemsSection() {
               transition={{ duration: 0.6, delay: i * 0.1 }}
               className="group relative rounded-2xl border border-gray-100 hover:border-[#C9A96E]/30 transition-all duration-500 hover:shadow-lg hover:shadow-[#FCEDF0]/50 overflow-hidden bg-white"
             >
-              <div className="w-full h-48 bg-gradient-to-br from-[#FCEDF0]/40 to-[#F8D7E0]/20 flex items-center justify-center p-6">
-                <img src={item.image} alt={item.title} className="w-32 h-32 object-contain drop-shadow-md" />
+              <div className="w-full h-56 bg-white flex items-center justify-center p-6 overflow-hidden">
+                <img src={item.image} alt={item.title} className="w-full h-full object-contain mix-blend-multiply" />
               </div>
               <div className="p-8">
                 <div

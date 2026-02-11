@@ -53,11 +53,11 @@ export default function IngredientsSection() {
           className="relative mb-16"
         >
           <div className="absolute inset-0 bg-gradient-to-r from-[#FCEDF0]/30 via-[#F8D7E0]/20 to-[#FCEDF0]/30 rounded-3xl blur-3xl" />
-          <div className="relative bg-gradient-to-br from-[#FCEDF0]/20 to-white rounded-3xl p-12 border border-[#FCEDF0]/40">
+          <div className="relative bg-white rounded-3xl p-12 border border-[#FCEDF0]/40 shadow-sm">
             <img
               src="https://intimateperfume.com/wp-content/uploads/2024/11/MW-TW-1-1024x1024-1.png"
               alt="Wooman Product"
-              className="w-80 h-80 mx-auto object-contain drop-shadow-2xl"
+              className="w-80 h-80 mx-auto object-contain drop-shadow-2xl mix-blend-multiply"
             />
           </div>
         </motion.div>
