@@ -16,7 +16,6 @@ import CertificateSection from "@/components/landing/CertificateSection";
 import PricingSection from "@/components/landing/PricingSection";
 import FAQSection from "@/components/landing/FAQSection";
 import FooterSection from "@/components/landing/FooterSection";
-import FloatingWhatsApp from "@/components/landing/FloatingWhatsApp";
 import ExportHTMLButton from "@/components/landing/ExportHTMLButton";
 
 export default function Home() {
@@ -39,7 +38,6 @@ export default function Home() {
       <PricingSection />
       <FAQSection />
       <FooterSection />
-      <FloatingWhatsApp />
       <ExportHTMLButton />
     </div>
   );
