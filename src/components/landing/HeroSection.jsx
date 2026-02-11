@@ -4,7 +4,20 @@ import { ChevronDown } from "lucide-react";
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-[#FFF5F5] via-[#FCEDF0] to-[#F8D7E0]">
+    <section className="relative min-h-screen flex flex-col overflow-hidden bg-gradient-to-b from-[#FFF5F5] via-[#FCEDF0] to-[#F8D7E0]">
+      {/* Top testimonial banner */}
+      <motion.div
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        className="bg-[#5C1A33] text-white py-4 px-6 text-center"
+      >
+        <p className="text-sm md:text-base font-light">
+          Sangat wet lepas guna..my husben cum kan i dulu then baru dia.. 😍
+        </p>
+      </motion.div>
+
+      <div className="relative flex-1 flex items-center justify-center">
       {/* Floating petals decoration */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {[...Array(12)].map((_, i) => (
@@ -138,6 +151,7 @@ export default function HeroSection() {
       >
         <ChevronDown className="w-5 h-5 text-[#5C1A33]/30" />
       </motion.div>
+      </div>
     </section>
   );
 }
