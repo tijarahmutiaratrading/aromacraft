@@ -30,7 +30,14 @@ export default function SeriousProblemsSection() {
             <div className="absolute -top-3 -right-3 w-16 h-16 bg-red-500/10 rounded-full flex items-center justify-center">
               <AlertTriangle className="w-8 h-8 text-red-500" />
             </div>
-            <h3 className="text-xl font-medium text-[#5C1A33] mb-3 mt-4">
+            <div className="mb-6 w-full h-56 rounded-2xl overflow-hidden shadow-md">
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/eaeddb4fa_IMG_0780.jpg"
+                alt="Mati putik article"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <h3 className="text-xl font-medium text-[#5C1A33] mb-3">
               Mati putik antara masalah ramai wanita
             </h3>
             <p className="text-[#5C1A33]/60 leading-relaxed text-sm">
@@ -48,7 +55,14 @@ export default function SeriousProblemsSection() {
             <div className="absolute -top-3 -right-3 w-16 h-16 bg-orange-500/10 rounded-full flex items-center justify-center">
               <Heart className="w-8 h-8 text-orange-500" />
             </div>
-            <h3 className="text-xl font-medium text-[#5C1A33] mb-3 mt-4">
+            <div className="mb-6 w-full h-56 rounded-2xl overflow-hidden shadow-md">
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/44ef55e6f_IMG_0787.jpg"
+                alt="Keputihan article"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <h3 className="text-xl font-medium text-[#5C1A33] mb-3">
               Keputihan melampau
             </h3>
             <p className="text-[#5C1A33]/60 leading-relaxed text-sm">

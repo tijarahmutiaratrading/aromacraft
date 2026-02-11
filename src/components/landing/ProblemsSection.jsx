@@ -66,10 +66,7 @@ export default function ProblemsSection() {
               transition={{ duration: 0.6, delay: i * 0.1 }}
               className="group relative rounded-2xl border border-gray-100 hover:border-[#C9A96E]/30 transition-all duration-500 hover:shadow-lg hover:shadow-[#FCEDF0]/50 overflow-hidden bg-white"
             >
-              <div className="w-full h-56 bg-white flex items-center justify-center p-6 overflow-hidden rounded-t-2xl">
-                <img src={item.image} alt={item.title} className="w-full h-full object-contain mix-blend-multiply" />
-              </div>
-              <div className="p-8">
+              <div className="p-8 pt-10">
                 <div
                   className="w-12 h-12 rounded-xl flex items-center justify-center mb-4 transition-transform duration-300 group-hover:scale-110"
                   style={{ backgroundColor: `${item.color}15` }}
