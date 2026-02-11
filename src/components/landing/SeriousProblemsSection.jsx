@@ -57,9 +57,9 @@ export default function SeriousProblemsSection() {
             </div>
             <div className="mb-6 w-full h-56 rounded-2xl overflow-hidden shadow-md">
               <img
-                src="https://intimateperfume.com/wp-content/uploads/2024/11/Kerap-sakit-belakang__20250417_162841_0002.png"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/9194bc9c7_IMG_0781.jpg"
                 alt="Keputihan article"
-                className="w-full h-full object-contain bg-white p-4"
+                className="w-full h-full object-cover"
               />
             </div>
             <h3 className="text-xl font-medium text-[#5C1A33] mb-3">
