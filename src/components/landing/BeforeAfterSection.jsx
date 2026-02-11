@@ -103,15 +103,33 @@ export default function BeforeAfterSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center"
+          className="grid md:grid-cols-2 gap-6"
         >
-          <div className="inline-flex items-center gap-3 bg-gradient-to-r from-[#FCEDF0] to-[#F8D7E0] px-8 py-4 rounded-2xl border border-[#C9A96E]/20">
-            <div className="w-12 h-12 rounded-full bg-[#5C1A33] flex items-center justify-center">
-              <span className="text-white font-bold text-lg">98%</span>
+          <div className="bg-gradient-to-br from-[#FCEDF0] to-white p-6 rounded-3xl border border-[#C9A96E]/20">
+            <img 
+              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/bf69f65e1_IMG_0795.jpg"
+              alt="Real Users"
+              className="w-full h-48 object-cover rounded-2xl mb-4"
+            />
+            <div className="flex items-center justify-between">
+              <div>
+                <p className="text-2xl font-bold text-[#5C1A33]">2,847+</p>
+                <p className="text-sm text-[#5C1A33]/60">Happy Customers</p>
+              </div>
+              <div className="text-4xl">🥰</div>
             </div>
-            <div className="text-left">
-              <p className="text-sm font-semibold text-[#5C1A33]">Satisfaction Rate</p>
-              <p className="text-xs text-[#5C1A33]/60">Dari 2,847+ pengguna bulan ini</p>
+          </div>
+          
+          <div className="bg-gradient-to-br from-green-50 to-white p-6 rounded-3xl border border-green-200">
+            <div className="w-12 h-12 rounded-full bg-green-500 flex items-center justify-center mb-3">
+              <span className="text-white font-bold text-xl">98%</span>
+            </div>
+            <p className="text-lg font-semibold text-[#5C1A33] mb-1">Satisfaction Rate</p>
+            <p className="text-sm text-[#5C1A33]/60 mb-4">Dari ribuan pengguna verified</p>
+            <div className="flex gap-1">
+              {[...Array(5)].map((_, i) => (
+                <Star key={i} className="w-5 h-5 fill-[#C9A96E] text-[#C9A96E]" />
+              ))}
             </div>
           </div>
         </motion.div>

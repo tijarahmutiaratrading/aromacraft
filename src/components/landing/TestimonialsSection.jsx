@@ -4,22 +4,28 @@ import { Star, MessageCircle } from "lucide-react";
 
 const testimonials = [
   {
-    text: "Sangat wet lepas guna..my husben cum kan i dulu then baru dia.. 😍",
+    text: "My husben cum kan i dulu then baru dia..im also cum for the 2nd time 😍😍 Stress terus hilang 🥰",
+    image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/803030ad5_IMG_0788.jpg",
   },
   {
-    text: "Alhamdulillah… Calit sikit je terus turn on. Tak perlu risau lagi masalah Wetness & dan kurang basah! 🥰",
+    text: "Sebelum ni kan pakai thewooman. Tp mywooman ni penangan wetness die teruk gile kottt. 2 malam berturut² klimaks lebih 10 kali 😍",
+    image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/4977fb901_IMG_0789.jpg",
   },
   {
-    text: "Suami lagi gatal bila dah guna ni. Setiap malam mesti nak. Alhamdulillah hubungan makin mesra 💕",
+    text: "Hi dear, after i using MyWooman, mmg WOW 🤩 baru 1st time roll dkt private area, dia punya basah mmg sampai husband pun tegur 'basahnya u sygg' 😘",
+    image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/454b695b8_IMG_0785.jpg",
   },
   {
-    text: "Period pain berkurang sangat! Dulu mesti ambil MC, sekarang boleh kerja macam biasa. Syukur jumpa Wooman ni 🙏",
+    text: "Yes mmg bile dh hujung² bsalin ni bgs je kerap bsame dear. Mudah²an lancar laluan baby nak kluar 😍😍",
+    image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/31f6dc2c3_IMG_0791.jpg",
   },
   {
-    text: "Mood jadi stabil, tidur pun lena. Suami kata personality aku berubah jadi lebih ceria. Thanks Wooman! ✨",
+    text: "Tp smlm i cepat juga turn on, husband ckp kenapa ye tiba² sebelum ni tak macam ni pun 😊 bangun pagi muka banyak senyummm 😂😂",
+    image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/fded03a00_IMG_0793.jpg",
   },
   {
-    text: "Bau dia memang sweet gila. Suami kata dia rasa turned on bila dekat dengan aku selepas pakai ni 😊",
+    text: "I memang ada masalah dryness especially bila bersama. Kesian my hubby kdg² mmg nampak dia x seronok sbb i mmg tak layan 😭 Alhamdulillah puas hati sgttt 🥰",
+    image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/9c73abb14_IMG_0797.jpg",
   },
 ];
 
@@ -51,26 +57,32 @@ export default function TestimonialsSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.08 }}
-              className="group rounded-2xl bg-gradient-to-br from-[#FCEDF0]/30 to-white border border-[#FCEDF0]/60 hover:shadow-lg hover:border-[#C9A96E]/30 transition-all duration-400 p-6"
+              className="group rounded-3xl bg-white border border-[#FCEDF0]/60 hover:shadow-xl hover:border-[#C9A96E]/30 transition-all duration-400 overflow-hidden"
             >
-              <div className="flex items-start gap-3 mb-4">
-                <div className="w-10 h-10 rounded-full bg-[#25D366]/10 flex items-center justify-center flex-shrink-0">
-                  <MessageCircle className="w-5 h-5 text-[#25D366]" />
-                </div>
-                <div className="flex-1">
-                  <div className="flex gap-0.5 mb-2">
-                    {[...Array(5)].map((_, j) => (
-                      <Star key={j} className="w-3 h-3 fill-[#C9A96E] text-[#C9A96E]" />
-                    ))}
-                  </div>
-                  <p className="text-[#5C1A33]/70 text-sm leading-relaxed font-light">
-                    {item.text}
-                  </p>
+              <div className="relative">
+                <img 
+                  src={item.image} 
+                  alt="Real Testimonial" 
+                  className="w-full h-64 object-cover"
+                />
+                <div className="absolute top-3 right-3 bg-[#25D366] text-white px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow-lg">
+                  <MessageCircle className="w-3 h-3" />
+                  <span className="text-xs font-medium">Real WhatsApp</span>
                 </div>
               </div>
-              <div className="flex items-center gap-2 pt-3 border-t border-[#FCEDF0]">
-                <div className="w-6 h-6 rounded-full bg-gradient-to-br from-[#E8A0BF] to-[#C9A96E]" />
-                <p className="text-[#5C1A33]/40 text-xs">Pengguna Verified</p>
+              <div className="p-5">
+                <div className="flex gap-0.5 mb-3">
+                  {[...Array(5)].map((_, j) => (
+                    <Star key={j} className="w-3.5 h-3.5 fill-[#C9A96E] text-[#C9A96E]" />
+                  ))}
+                </div>
+                <p className="text-[#5C1A33]/70 text-sm leading-relaxed italic">
+                  "{item.text}"
+                </p>
+                <div className="flex items-center gap-2 pt-4 mt-4 border-t border-[#FCEDF0]">
+                  <div className="w-5 h-5 rounded-full bg-gradient-to-br from-[#E8A0BF] to-[#C9A96E]" />
+                  <p className="text-[#5C1A33]/40 text-xs font-medium">Verified Customer ✓</p>
+                </div>
               </div>
             </motion.div>
           ))}

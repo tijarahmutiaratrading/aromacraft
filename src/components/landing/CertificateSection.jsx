@@ -80,16 +80,27 @@ export default function CertificateSection() {
                 </div>
               </div>
             </div>
-            <div className="flex justify-center">
-              <div className="relative">
-                <div className="absolute inset-0 bg-[#C9A96E]/10 rounded-3xl blur-2xl" />
-                <div className="relative bg-white rounded-3xl p-8 shadow-xl">
-                  <img
-                    src="https://intimateperfume.com/wp-content/uploads/2024/11/MW-TW-1-1024x1024-1.png"
-                    alt="Wooman Certificate"
-                    className="w-64 h-64 object-contain drop-shadow-2xl mix-blend-multiply"
-                  />
-                </div>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+              <div className="relative bg-white rounded-2xl p-4 shadow-lg border border-[#FCEDF0] hover:scale-105 transition-transform">
+                <img
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/77e6aaf6f_IMG_0786.jpg"
+                  alt="International Organic Awards"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+              <div className="relative bg-white rounded-2xl p-4 shadow-lg border border-[#FCEDF0] hover:scale-105 transition-transform">
+                <img
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/5b77834ea_IMG_0790.jpg"
+                  alt="Vegan Society Certificate"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+              <div className="relative bg-white rounded-2xl p-4 shadow-lg border border-[#FCEDF0] hover:scale-105 transition-transform">
+                <img
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/e0158f6c9_IMG_0784.jpg"
+                  alt="Lab Analysis Certificate"
+                  className="w-full h-auto object-contain"
+                />
               </div>
             </div>
           </div>

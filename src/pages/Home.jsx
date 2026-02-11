@@ -7,6 +7,7 @@ import IngredientsSection from "@/components/landing/IngredientsSection";
 import UsageSection from "@/components/landing/UsageSection";
 import DetailedUsageSection from "@/components/landing/DetailedUsageSection";
 import TestimonialsSection from "@/components/landing/TestimonialsSection";
+import VideoTestimonialSection from "@/components/landing/VideoTestimonialSection";
 import BeforeAfterSection from "@/components/landing/BeforeAfterSection";
 import ExpertEndorsementSection from "@/components/landing/ExpertEndorsementSection";
 import GuaranteeSection from "@/components/landing/GuaranteeSection";
@@ -28,6 +29,7 @@ export default function Home() {
       <UsageSection />
       <DetailedUsageSection />
       <TestimonialsSection />
+      <VideoTestimonialSection />
       <BeforeAfterSection />
       <ExpertEndorsementSection />
       <GuaranteeSection />
