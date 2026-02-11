@@ -47,12 +47,12 @@ export default function ProblemsSection() {
           <p className="text-[#C9A96E] tracking-[0.3em] uppercase text-xs font-medium mb-4">
             Masalah Wanita
           </p>
-          <h2 className="text-3xl md:text-4xl font-light text-[#5C1A33] mb-4" style={{ fontFamily: "'Georgia', serif" }}>
-            Sis ada masalah ni ke?
+          <h2 className="text-3xl md:text-5xl font-light text-[#5C1A33] mb-4" style={{ fontFamily: "'Georgia', serif" }}>
+            Sis Ada Masalah Ni Ke?
           </h2>
           <div className="w-12 h-[1px] bg-[#C9A96E] mx-auto mb-6" />
-          <p className="text-[#5C1A33]/50 text-sm md:text-base max-w-md mx-auto font-light">
-            Dah try macam-macam produk tapi masih tak berkesan?
+          <p className="text-[#5C1A33]/60 text-sm md:text-base max-w-2xl mx-auto font-light">
+            Jangan risau, sis bukan sorang. <span className="font-medium text-[#5C1A33]">Ramai wanita hadapi masalah sama.</span> Dah cuba macam-macam tapi masih tak berkesan?
           </p>
         </motion.div>
 
