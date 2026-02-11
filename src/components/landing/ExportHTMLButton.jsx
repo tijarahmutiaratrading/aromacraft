@@ -74,17 +74,17 @@ export default function ExportHTMLButton() {
     </section>
     <section id="masalah" class="section" style="background: white;">
         <div class="container">
-            <div class="section-title">
+            <div class="section-title animate">
                 <p class="section-subtitle">Masalah Wanita</p>
                 <h2 class="section-heading georgia">Sis Ada Masalah Ni Ke?</h2>
                 <div class="divider"></div>
                 <p style="color: rgba(92, 26, 51, 0.6); font-size: 0.875rem; max-width: 700px; margin: 24px auto 0;">Jangan risau, sis bukan sorang. <span style="font-weight: 500; color: #5C1A33;">Ramai wanita hadapi masalah sama.</span> Dah cuba macam-macam tapi masih tak berkesan?</p>
             </div>
             <div class="grid grid-4">
-                <div class="card"><h3 style="font-size: 1.125rem; margin-bottom: 12px;">Mati Putik & Hilang Nafsu</h3><p style="color: rgba(92, 26, 51, 0.5); font-size: 0.875rem;">Hilang ghairah semasa hubungan intim.</p></div>
-                <div class="card"><h3 style="font-size: 1.125rem; margin-bottom: 12px;">Miss V Kering</h3><p style="color: rgba(92, 26, 51, 0.5); font-size: 0.875rem;">Rasa tak selesa, gatal, pedih atau sakit semasa bersama suami.</p></div>
-                <div class="card"><h3 style="font-size: 1.125rem; margin-bottom: 12px;">Selalu Moody & Stress</h3><p style="color: rgba(92, 26, 51, 0.5); font-size: 0.875rem;">Emosi mudah terganggu, malas nak buat kerja.</p></div>
-                <div class="card"><h3 style="font-size: 1.125rem; margin-bottom: 12px;">Sakit Senggugut</h3><p style="color: rgba(92, 26, 51, 0.5); font-size: 0.875rem;">Kerap mengalami sakit di bahagian bawah perut semasa haid.</p></div>
+                <div class="card animate"><h3 style="font-size: 1.125rem; margin-bottom: 12px;">Mati Putik & Hilang Nafsu</h3><p style="color: rgba(92, 26, 51, 0.5); font-size: 0.875rem;">Hilang ghairah semasa hubungan intim.</p></div>
+                <div class="card animate"><h3 style="font-size: 1.125rem; margin-bottom: 12px;">Miss V Kering</h3><p style="color: rgba(92, 26, 51, 0.5); font-size: 0.875rem;">Rasa tak selesa, gatal, pedih atau sakit semasa bersama suami.</p></div>
+                <div class="card animate"><h3 style="font-size: 1.125rem; margin-bottom: 12px;">Selalu Moody & Stress</h3><p style="color: rgba(92, 26, 51, 0.5); font-size: 0.875rem;">Emosi mudah terganggu, malas nak buat kerja.</p></div>
+                <div class="card animate"><h3 style="font-size: 1.125rem; margin-bottom: 12px;">Sakit Senggugut</h3><p style="color: rgba(92, 26, 51, 0.5); font-size: 0.875rem;">Kerap mengalami sakit di bahagian bawah perut semasa haid.</p></div>
             </div>
         </div>
     </section>
