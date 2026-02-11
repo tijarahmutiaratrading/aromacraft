@@ -75,6 +75,18 @@ export default function ExportHTMLButton() {
             </div>
         </div>
     </section>
+    <section class="section" style="background: linear-gradient(135deg, #5C1A33, #7A2345); text-align: center; padding: 80px 24px;">
+        <div class="container">
+            <h2 class="georgia" style="color: white; font-size: 2rem; margin-bottom: 16px; font-weight: 300;">Dah Bersedia Untuk Transformasi?</h2>
+            <p style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 32px; max-width: 600px; margin-left: auto; margin-right: auto;">Sertai ribuan wanita Malaysia yang dah rasai perubahan luar biasa. <strong style="color: white;">Jangan tunggu lagi!</strong></p>
+            <a href="#order" class="btn-primary" style="background: #C9A96E; display: inline-flex; align-items: center; gap: 8px; font-size: 1rem; padding: 18px 48px;">Order Sekarang - Jimat RM300 <span style="font-size: 1.25rem;">→</span></a>
+            <div style="margin-top: 40px; display: flex; flex-wrap: wrap; align-items: center; justify-center; gap: 32px;">
+                <div style="display: flex; align-items: center; gap: 8px;"><span style="font-size: 1.5rem;">🛡️</span><span style="color: rgba(255,255,255,0.7); font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase;">100% Selamat</span></div>
+                <div style="display: flex; align-items: center; gap: 8px;"><span style="font-size: 1.5rem;">🚚</span><span style="color: rgba(255,255,255,0.7); font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase;">Free Postage</span></div>
+                <div style="display: flex; align-items: center; gap: 8px;"><span style="font-size: 1.5rem;">🎁</span><span style="color: rgba(255,255,255,0.7); font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase;">Free Gift</span></div>
+            </div>
+        </div>
+    </section>
     <section class="section" style="background: linear-gradient(to bottom, rgba(252, 237, 240, 0.3), white);">
         <div class="container">
             <div class="section-title">
