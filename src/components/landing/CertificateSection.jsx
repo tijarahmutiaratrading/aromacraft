@@ -82,12 +82,14 @@ export default function CertificateSection() {
             </div>
             <div className="flex justify-center">
               <div className="relative">
-                <div className="absolute inset-0 bg-[#C9A96E]/10 rounded-2xl blur-2xl" />
-                <img
-                  src="https://intimateperfume.com/wp-content/uploads/2024/11/MW-TW-1-1024x1024-1.png"
-                  alt="Wooman Certificate"
-                  className="relative w-64 h-64 object-contain drop-shadow-2xl mix-blend-multiply"
-                />
+                <div className="absolute inset-0 bg-[#C9A96E]/10 rounded-3xl blur-2xl" />
+                <div className="relative bg-white rounded-3xl p-8 shadow-xl">
+                  <img
+                    src="https://intimateperfume.com/wp-content/uploads/2024/11/MW-TW-1-1024x1024-1.png"
+                    alt="Wooman Certificate"
+                    className="w-64 h-64 object-contain drop-shadow-2xl mix-blend-multiply"
+                  />
+                </div>
               </div>
             </div>
           </div>

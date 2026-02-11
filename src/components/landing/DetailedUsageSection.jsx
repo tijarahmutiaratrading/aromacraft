@@ -161,7 +161,7 @@ export default function DetailedUsageSection() {
           className="grid md:grid-cols-2 gap-8 items-start"
         >
           {/* Image */}
-          <div className="relative rounded-2xl overflow-hidden shadow-lg">
+          <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
             <img
               src={detailedGuides[activeGuide].image}
               alt={detailedGuides[activeGuide].title}

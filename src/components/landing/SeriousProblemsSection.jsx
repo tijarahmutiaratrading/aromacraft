@@ -30,7 +30,7 @@ export default function SeriousProblemsSection() {
             <div className="absolute -top-3 -right-3 w-16 h-16 bg-red-500/10 rounded-full flex items-center justify-center">
               <AlertTriangle className="w-8 h-8 text-red-500" />
             </div>
-            <div className="mb-6 w-full h-56 rounded-xl overflow-hidden">
+            <div className="mb-6 w-full h-56 rounded-2xl overflow-hidden shadow-md">
               <img
                 src="https://intimateperfume.com/wp-content/uploads/2024/11/474618084_122156789066292366_4109968974446218990_n.jpg"
                 alt="Mati putik"
@@ -55,7 +55,7 @@ export default function SeriousProblemsSection() {
             <div className="absolute -top-3 -right-3 w-16 h-16 bg-orange-500/10 rounded-full flex items-center justify-center">
               <Heart className="w-8 h-8 text-orange-500" />
             </div>
-            <div className="mb-6 w-full h-56 rounded-xl overflow-hidden">
+            <div className="mb-6 w-full h-56 rounded-2xl overflow-hidden shadow-md">
               <img
                 src="https://intimateperfume.com/wp-content/uploads/2024/11/bahaya-keputihan-kepada-wanita-kemandulan-keguguran.png"
                 alt="Keputihan"

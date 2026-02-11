@@ -99,32 +99,47 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.55 }}
           className="mb-10"
         >
-          <img
-            src="https://intimateperfume.com/wp-content/uploads/2024/11/MW-TW-1-1024x1024-1.png"
-            alt="Wooman Perfume"
-            className="w-72 h-72 md:w-96 md:h-96 mx-auto object-contain drop-shadow-2xl mix-blend-multiply"
-          />
+          <div className="relative">
+            <div className="absolute inset-0 bg-[#C9A96E]/10 rounded-3xl blur-3xl" />
+            <img
+              src="https://intimateperfume.com/wp-content/uploads/2024/11/MW-TW-1-1024x1024-1.png"
+              alt="Wooman Perfume"
+              className="relative w-72 h-72 md:w-96 md:h-96 mx-auto object-contain drop-shadow-2xl mix-blend-multiply"
+            />
+          </div>
         </motion.div>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="flex flex-col sm:flex-row items-center justify-center gap-4"
+          className="space-y-4"
         >
-          <a
-            href="#order"
-            className="group relative px-10 py-4 bg-[#5C1A33] text-white text-sm tracking-[0.2em] uppercase rounded-full overflow-hidden transition-all duration-500 hover:shadow-xl hover:shadow-[#5C1A33]/20"
-          >
-            <span className="relative z-10">Order Sekarang</span>
-            <div className="absolute inset-0 bg-[#C9A96E] transform translate-y-full group-hover:translate-y-0 transition-transform duration-500" />
-          </a>
-          <a
-            href="#masalah"
-            className="px-10 py-4 text-[#5C1A33]/60 text-sm tracking-[0.2em] uppercase border border-[#5C1A33]/15 rounded-full hover:border-[#C9A96E] hover:text-[#C9A96E] transition-all duration-300"
-          >
-            Ketahui Lebih
-          </a>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a
+              href="#order"
+              className="group relative px-10 py-4 bg-[#5C1A33] text-white text-sm tracking-[0.2em] uppercase rounded-full overflow-hidden transition-all duration-500 hover:shadow-xl hover:shadow-[#5C1A33]/20 hover:scale-105"
+            >
+              <span className="relative z-10">🔥 Order Sekarang</span>
+              <div className="absolute inset-0 bg-[#C9A96E] transform translate-y-full group-hover:translate-y-0 transition-transform duration-500" />
+            </a>
+            <a
+              href="#masalah"
+              className="px-10 py-4 text-[#5C1A33]/60 text-sm tracking-[0.2em] uppercase border border-[#5C1A33]/15 rounded-full hover:border-[#C9A96E] hover:text-[#C9A96E] transition-all duration-300"
+            >
+              Ketahui Lebih
+            </a>
+          </div>
+          <div className="flex items-center justify-center gap-2 text-sm">
+            <div className="flex -space-x-2">
+              {[1,2,3,4].map((i) => (
+                <div key={i} className="w-8 h-8 rounded-full bg-gradient-to-br from-[#E8A0BF] to-[#C9A96E] border-2 border-white" />
+              ))}
+            </div>
+            <span className="text-[#5C1A33]/60 text-xs">
+              <span className="font-semibold text-[#5C1A33]">2,847+</span> wanita dah order hari ini
+            </span>
+          </div>
         </motion.div>
 
         {/* Trust badges */}
