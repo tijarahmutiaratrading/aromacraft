@@ -266,9 +266,17 @@ export default function ExportHTMLButton() {
         <a href="https://intimateperfume.com/#beli" target="_blank" class="btn-primary" style="background: #C9A96E;">Order Sekarang</a>
         <p style="margin-top: 40px; color: rgba(255, 255, 255, 0.2); font-size: 0.75rem;">© 2025 Wooman Intimate Perfume</p>
     </footer>
+    <div style="position: fixed; bottom: 0; left: 0; right: 0; background: white; border-top: 2px solid #C9A96E; padding: 16px 24px; display: flex; align-items: center; justify-content: space-between; box-shadow: 0 -4px 20px rgba(0,0,0,0.1); z-index: 1000;" id="stickyCTA">
+        <div>
+            <p style="color: #5C1A33; font-weight: 600; font-size: 0.875rem; margin-bottom: 4px;">Wooman Perfume</p>
+            <div style="display: flex; gap: 4px;">⭐⭐⭐⭐⭐ <span style="color: rgba(92,26,51,0.6); font-size: 0.75rem; margin-left: 8px;">2,847+ reviews</span></div>
+        </div>
+        <a href="#order" class="btn-primary" style="padding: 12px 32px; font-size: 0.875rem; white-space: nowrap;">Order Sekarang</a>
+    </div>
     <script>
         function toggleFAQ(button) { const item = button.parentElement; const isActive = item.classList.contains('active'); document.querySelectorAll('.faq-item').forEach(faq => { faq.classList.remove('active'); }); if (!isActive) { item.classList.add('active'); } }
         document.querySelectorAll('a[href^="#"]').forEach(anchor => { anchor.addEventListener('click', function (e) { e.preventDefault(); const target = document.querySelector(this.getAttribute('href')); if (target) { target.scrollIntoView({ behavior: 'smooth' }); } }); });
+        window.addEventListener('scroll', function() { const sticky = document.getElementById('stickyCTA'); if (window.scrollY > 500) { sticky.style.display = 'flex'; } else { sticky.style.display = 'none'; } });
     </script>
 </body>
 </html>`;
