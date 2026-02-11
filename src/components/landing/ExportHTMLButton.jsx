@@ -335,28 +335,59 @@ export default function ExportHTMLButton() {
   };
 
   const handleExportJSON = () => {
-    const wordpressJSON = {
-      version: "1.0",
-      page_title: "Wooman - Intimate Organic Perfume",
-      page_slug: "wooman-landing",
-      page_content: getHTMLContent(),
-      meta: {
-        description: "100% Organic Intimate Perfume untuk wanita Malaysia",
-        keywords: "intimate perfume, organic, wooman, perfume wanita",
+    const elementorJSON = {
+      version: "0.4",
+      title: "Wooman Landing Page",
+      type: "page",
+      content: [
+        {
+          id: "wooman-section",
+          elType: "section",
+          elements: [
+            {
+              id: "wooman-column",
+              elType: "column",
+              elements: [
+                {
+                  id: "wooman-html",
+                  elType: "widget",
+                  widgetType: "html",
+                  settings: {
+                    html: getHTMLContent(),
+                    _element_id: "wooman-landing"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      page_settings: {
+        template: "elementor_canvas",
+        post_title: "Wooman - Intimate Organic Perfume",
+        post_status: "publish"
       },
-      instructions: "Import ke WordPress: 1) Install plugin 'WP All Import' atau 2) Copy page_content dan paste dalam Custom HTML block"
+      instructions: {
+        step1: "Install Elementor plugin di WordPress",
+        step2: "Go to Pages > Add New",
+        step3: "Edit with Elementor",
+        step4: "Klik icon '⚙️' (settings) > Import Template",
+        step5: "Upload file JSON ini",
+        step6: "Insert dan publish",
+        note: "Atau copy HTML dari field 'content[0].elements[0].elements[0].settings.html' dan paste dalam HTML widget"
+      }
     };
 
-    const blob = new Blob([JSON.stringify(wordpressJSON, null, 2)], { type: 'application/json' });
+    const blob = new Blob([JSON.stringify(elementorJSON, null, 2)], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'wooman-wordpress-export.json';
+    a.download = 'wooman-elementor-export.json';
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
     URL.revokeObjectURL(url);
-    toast.success('JSON file downloaded!');
+    toast.success('Elementor JSON downloaded!');
   };
 
   return (
