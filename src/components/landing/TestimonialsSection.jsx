@@ -8,11 +8,11 @@ const testimonials = [
     image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/803030ad5_IMG_0788.jpg",
   },
   {
-    text: "Sebelum ni kan pakai thewooman. Tp mywooman ni penangan wetness die teruk gile kottt. 2 malam berturut² klimaks lebih 10 kali 😍",
+    text: "Sebelum ni kan pakai thewooman. Tp mywooman ni penangan wetness die teruk gile kottt 😍 2 malam berturut² klimaks lebih 10 kali",
     image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/4977fb901_IMG_0789.jpg",
   },
   {
-    text: "Hi dear, after i using MyWooman, mmg WOW 🤩 baru 1st time roll dkt private area, dia punya basah mmg sampai husband pun tegur 'basahnya u sygg' 😘",
+    text: "After i using MyWooman, mmg WOW 🤩 baru 1st time roll dkt private area, dia punya basah mmg sampai husband pun tegur. Siapa sangka benda ni sgt2 membantu! 🥰",
     image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/454b695b8_IMG_0785.jpg",
   },
   {
@@ -24,7 +24,7 @@ const testimonials = [
     image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/fded03a00_IMG_0793.jpg",
   },
   {
-    text: "I memang ada masalah dryness especially bila bersama. Kesian my hubby kdg² mmg nampak dia x seronok sbb i mmg tak layan 😭 Alhamdulillah puas hati sgttt 🥰",
+    text: "I memang ada masalah dryness especially bila bersama 😭 Tp smlm i cepat juga turn on. I personally love the result. Alhamdulillah puas hati sgttt 🥰",
     image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/9c73abb14_IMG_0797.jpg",
   },
 ];
