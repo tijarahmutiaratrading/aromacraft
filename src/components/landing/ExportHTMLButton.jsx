@@ -63,8 +63,9 @@ export default function ExportHTMLButton() {
         <div class="container">
             <div class="section-title">
                 <p class="section-subtitle">Masalah Wanita</p>
-                <h2 class="section-heading georgia">Sis ada masalah ni ke?</h2>
+                <h2 class="section-heading georgia">Sis Ada Masalah Ni Ke?</h2>
                 <div class="divider"></div>
+                <p style="color: rgba(92, 26, 51, 0.6); font-size: 0.875rem; max-width: 700px; margin: 24px auto 0;">Jangan risau, sis bukan sorang. <span style="font-weight: 500; color: #5C1A33;">Ramai wanita hadapi masalah sama.</span> Dah cuba macam-macam tapi masih tak berkesan?</p>
             </div>
             <div class="grid grid-4">
                 <div class="card"><h3 style="font-size: 1.125rem; margin-bottom: 12px;">Mati Putik & Hilang Nafsu</h3><p style="color: rgba(92, 26, 51, 0.5); font-size: 0.875rem;">Hilang ghairah semasa hubungan intim.</p></div>
