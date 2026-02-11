@@ -79,8 +79,9 @@ export default function ExportHTMLButton() {
         <div class="container">
             <div class="section-title">
                 <p class="section-subtitle">Kelebihan</p>
-                <h2 class="section-heading georgia">Bagaimana Wooman Membantu Sis?</h2>
+                <h2 class="section-heading georgia">Wooman - Penyelesaian Semulajadi</h2>
                 <div class="divider"></div>
+                <p style="color: rgba(92, 26, 51, 0.6); font-size: 0.875rem; max-width: 700px; margin: 24px auto 0;"><span style="font-weight: 500; color: #5C1A33;">100% organik & selamat.</span> Formulasi khas membantu wanita atasi masalah dalaman & luaran secara semulajadi.</p>
             </div>
             <div class="grid grid-4">
                 <div class="card" style="text-align: center;"><div style="font-size: 2rem; margin-bottom: 16px;">✨</div><p style="color: rgba(92, 26, 51, 0.7); font-size: 0.875rem;">Stabilkan hormon & tingkatkan mood positif</p></div>
