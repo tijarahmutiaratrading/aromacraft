@@ -102,9 +102,9 @@ export default function HeroSection() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href="#order"
-              className="group relative px-10 py-4 bg-[#5C1A33] text-white text-sm tracking-[0.2em] uppercase rounded-full overflow-hidden transition-all duration-500 hover:shadow-xl hover:shadow-[#5C1A33]/20 hover:scale-105"
+              className="group relative px-10 py-4 bg-[#5C1A33] text-white text-sm tracking-[0.2em] uppercase rounded-full overflow-hidden transition-all duration-500 hover:shadow-xl hover:shadow-[#5C1A33]/20 hover:scale-105 animate-pulse"
             >
-              <span className="relative z-10">🔥 Order Sekarang</span>
+              <span className="relative z-10">🔥 Order Sekarang - Jimat Hingga RM300</span>
               <div className="absolute inset-0 bg-[#C9A96E] transform translate-y-full group-hover:translate-y-0 transition-transform duration-500" />
             </a>
             <a
