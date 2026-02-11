@@ -1,5 +1,5 @@
 import React from "react";
-import { Download, Copy } from "lucide-react";
+import { Download, Copy, FileJson } from "lucide-react";
 import { toast } from "sonner";
 
 export default function ExportHTMLButton() {
