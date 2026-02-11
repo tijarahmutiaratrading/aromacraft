@@ -45,66 +45,47 @@ export default function CertificateSection() {
           ))}
         </div>
 
-        <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="relative bg-gradient-to-br from-[#FCEDF0]/40 to-white rounded-2xl p-10 md:p-12 border border-[#FCEDF0]"
-        >
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div>
-              <div className="inline-flex items-center gap-2 bg-[#5C1A33]/5 px-4 py-2 rounded-full mb-4">
-                <ShieldCheck className="w-4 h-4 text-[#C9A96E]" />
-                <span className="text-xs text-[#5C1A33]/70 tracking-wider uppercase">Verified Safe</span>
-              </div>
-              <h3 className="text-2xl font-light text-[#5C1A33] mb-3" style={{ fontFamily: "'Georgia', serif" }}>
-                Dipercayai Ribuan Wanita
-              </h3>
-              <p className="text-[#5C1A33]/60 text-sm leading-relaxed mb-6">
-                Wooman Perfume telah melalui pelbagai ujian keselamatan dan mendapat kelulusan daripada 
-                pihak berkuasa untuk memastikan produk ini selamat dan berkesan untuk semua wanita.
-              </p>
-              <div className="flex flex-wrap gap-3">
-                <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-full border border-[#C9A96E]/20">
-                  <div className="w-2 h-2 rounded-full bg-green-500" />
-                  <span className="text-xs text-[#5C1A33]/70">No Harmful Chemicals</span>
-                </div>
-                <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-full border border-[#C9A96E]/20">
-                  <div className="w-2 h-2 rounded-full bg-green-500" />
-                  <span className="text-xs text-[#5C1A33]/70">Lab Tested</span>
-                </div>
-                <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-full border border-[#C9A96E]/20">
-                  <div className="w-2 h-2 rounded-full bg-green-500" />
-                  <span className="text-xs text-[#5C1A33]/70">Clinically Proven</span>
-                </div>
-              </div>
-            </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-              <div className="relative bg-white rounded-2xl p-4 shadow-lg border border-[#FCEDF0] hover:scale-105 transition-transform">
-                <img
-                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/77e6aaf6f_IMG_0786.jpg"
-                  alt="International Organic Awards"
-                  className="w-full h-auto object-contain"
-                />
-              </div>
-              <div className="relative bg-white rounded-2xl p-4 shadow-lg border border-[#FCEDF0] hover:scale-105 transition-transform">
-                <img
-                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/5b77834ea_IMG_0790.jpg"
-                  alt="Vegan Society Certificate"
-                  className="w-full h-auto object-contain"
-                />
-              </div>
-              <div className="relative bg-white rounded-2xl p-4 shadow-lg border border-[#FCEDF0] hover:scale-105 transition-transform">
-                <img
-                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/e0158f6c9_IMG_0784.jpg"
-                  alt="Lab Analysis Certificate"
-                  className="w-full h-auto object-contain"
-                />
-              </div>
-            </div>
-          </div>
-        </motion.div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.1 }}
+            className="relative bg-white rounded-2xl p-6 shadow-xl border border-[#FCEDF0] hover:scale-105 transition-transform cursor-pointer"
+          >
+            <img
+              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/db195df60_IMG_0787.jpg"
+              alt="International Organic Awards Certificate"
+              className="w-full h-auto object-contain rounded-lg"
+            />
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="relative bg-white rounded-2xl p-6 shadow-xl border border-[#FCEDF0] hover:scale-105 transition-transform cursor-pointer"
+          >
+            <img
+              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/66ec706b5_IMG_0786.jpg"
+              alt="Vegan Society Certificate"
+              className="w-full h-auto object-contain rounded-lg"
+            />
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+            className="relative bg-white rounded-2xl p-6 shadow-xl border border-[#FCEDF0] hover:scale-105 transition-transform cursor-pointer"
+          >
+            <img
+              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/11a8c1222_IMG_0788.jpg"
+              alt="Lab Analysis Certificate"
+              className="w-full h-auto object-contain rounded-lg"
+            />
+          </motion.div>
+        </div>
       </div>
     </section>
   );
