@@ -69,12 +69,12 @@ export default function PricingSection() {
           <p className="text-[#C9A96E] tracking-[0.3em] uppercase text-xs font-medium mb-4">
             Pakej
           </p>
-          <h2 className="text-3xl md:text-4xl font-light text-[#5C1A33] mb-4" style={{ fontFamily: "'Georgia', serif" }}>
-            Pilih Pakej Sis
+          <h2 className="text-3xl md:text-5xl font-light text-[#5C1A33] mb-4" style={{ fontFamily: "'Georgia', serif" }}>
+            Pilih Pakej Terbaik Untuk Sis
           </h2>
           <div className="w-12 h-[1px] bg-[#C9A96E] mx-auto mb-6" />
-          <p className="text-[#5C1A33]/50 text-sm max-w-md mx-auto font-light">
-            Semua pakej termasuk penghantaran percuma ke seluruh Malaysia
+          <p className="text-[#5C1A33]/60 text-sm md:text-base max-w-2xl mx-auto">
+            <span className="font-medium text-[#5C1A33]">Free postage seluruh Malaysia.</span> Lebih banyak order, lebih banyak jimat! 💕
           </p>
         </motion.div>
 
