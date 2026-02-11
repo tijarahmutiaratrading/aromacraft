@@ -55,7 +55,7 @@ export default function ExportHTMLButton() {
                 <div class="divider"></div>
                 <p style="color: rgba(92, 26, 51, 0.7); font-size: 1.125rem; margin-bottom: 16px;">Rahsia Intimasi Wanita</p>
                 <p style="color: rgba(92, 26, 51, 0.5); font-size: 0.875rem; max-width: 500px; margin: 0 auto 40px;">Formulasi khas 100% organik membantu mengatasi masalah dalaman dan luaran wanita. Bangkitkan sensasi bersama suami.</p>
-                <a href="#order" class="btn-primary">🔥 Order Sekarang</a>
+                <a href="#order" class="btn-primary">🔥 Order Sekarang - Jimat Hingga RM300</a>
             </div>
         </div>
     </section>
