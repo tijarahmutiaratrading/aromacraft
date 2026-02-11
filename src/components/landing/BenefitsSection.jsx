@@ -25,12 +25,12 @@ export default function BenefitsSection() {
           <p className="text-[#C9A96E] tracking-[0.3em] uppercase text-xs font-medium mb-4">
             Kelebihan
           </p>
-          <h2 className="text-3xl md:text-4xl font-light text-[#5C1A33] mb-4" style={{ fontFamily: "'Georgia', serif" }}>
-            Bagaimana Wooman Membantu Sis?
+          <h2 className="text-3xl md:text-5xl font-light text-[#5C1A33] mb-4" style={{ fontFamily: "'Georgia', serif" }}>
+            Wooman - Penyelesaian Semulajadi
           </h2>
           <div className="w-12 h-[1px] bg-[#C9A96E] mx-auto mb-6" />
-          <p className="text-[#5C1A33]/50 text-sm md:text-base max-w-lg mx-auto font-light">
-            Direka khas untuk wanita dengan formulasi 100% organik yang selamat dan berkesan
+          <p className="text-[#5C1A33]/60 text-sm md:text-base max-w-2xl mx-auto">
+            <span className="font-medium text-[#5C1A33]">100% organik & selamat.</span> Formulasi khas membantu wanita atasi masalah dalaman & luaran secara semulajadi.
           </p>
         </motion.div>
 
