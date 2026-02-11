@@ -60,15 +60,15 @@ export default function ExportHTMLButton() {
 </head>
 <body>
     <section class="hero">
-        <div class="hero-banner"><p>Sangat wet lepas guna..my husben cum kan i dulu then baru dia.. 😍</p></div>
+        <div class="hero-banner animate-fade"><p>Sangat wet lepas guna..my husben cum kan i dulu then baru dia.. 😍</p></div>
         <div class="hero-content">
             <div style="max-width: 900px;">
-                <p class="section-subtitle">Intimate Organic Perfume</p>
-                <h1 class="hero-title georgia">WOOMAN</h1>
-                <div class="divider"></div>
-                <p style="color: rgba(92, 26, 51, 0.7); font-size: 1.125rem; margin-bottom: 16px;">Rahsia Intimasi Wanita</p>
-                <p style="color: rgba(92, 26, 51, 0.5); font-size: 0.875rem; max-width: 500px; margin: 0 auto 40px;">Formulasi khas 100% organik membantu mengatasi masalah dalaman dan luaran wanita. Bangkitkan sensasi bersama suami.</p>
-                <a href="#order" class="btn-primary">🔥 Order Sekarang - Jimat Hingga RM300</a>
+                <p class="section-subtitle animate">Intimate Organic Perfume</p>
+                <h1 class="hero-title georgia animate">WOOMAN</h1>
+                <div class="divider animate"></div>
+                <p class="animate" style="color: rgba(92, 26, 51, 0.7); font-size: 1.125rem; margin-bottom: 16px;">Rahsia Intimasi Wanita</p>
+                <p class="animate" style="color: rgba(92, 26, 51, 0.5); font-size: 0.875rem; max-width: 500px; margin: 0 auto 40px;">Formulasi khas 100% organik membantu mengatasi masalah dalaman dan luaran wanita. Bangkitkan sensasi bersama suami.</p>
+                <a href="#order" class="btn-primary pulse-btn animate">🔥 Order Sekarang - Jimat Hingga RM300</a>
             </div>
         </div>
     </section>
