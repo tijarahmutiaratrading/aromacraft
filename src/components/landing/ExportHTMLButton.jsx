@@ -334,6 +334,31 @@ export default function ExportHTMLButton() {
     });
   };
 
+  const handleExportJSON = () => {
+    const wordpressJSON = {
+      version: "1.0",
+      page_title: "Wooman - Intimate Organic Perfume",
+      page_slug: "wooman-landing",
+      page_content: getHTMLContent(),
+      meta: {
+        description: "100% Organic Intimate Perfume untuk wanita Malaysia",
+        keywords: "intimate perfume, organic, wooman, perfume wanita",
+      },
+      instructions: "Import ke WordPress: 1) Install plugin 'WP All Import' atau 2) Copy page_content dan paste dalam Custom HTML block"
+    };
+
+    const blob = new Blob([JSON.stringify(wordpressJSON, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'wooman-wordpress-export.json';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+    toast.success('JSON file downloaded!');
+  };
+
   return (
     <div className="fixed bottom-24 right-6 md:right-8 z-40 flex flex-col gap-3">
       <button
