@@ -290,6 +290,19 @@ export default function ExportHTMLButton() {
         function toggleFAQ(button) { const item = button.parentElement; const isActive = item.classList.contains('active'); document.querySelectorAll('.faq-item').forEach(faq => { faq.classList.remove('active'); }); if (!isActive) { item.classList.add('active'); } }
         document.querySelectorAll('a[href^="#"]').forEach(anchor => { anchor.addEventListener('click', function (e) { e.preventDefault(); const target = document.querySelector(this.getAttribute('href')); if (target) { target.scrollIntoView({ behavior: 'smooth' }); } }); });
         window.addEventListener('scroll', function() { const sticky = document.getElementById('stickyCTA'); if (window.scrollY > 500) { sticky.style.display = 'flex'; } else { sticky.style.display = 'none'; } });
+        const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry, index) {
+                if (entry.isIntersecting) {
+                    setTimeout(function() { entry.target.classList.add('show'); }, index * 100);
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() { document.querySelectorAll('.hero .animate, .hero .animate-fade').forEach(function(el) { el.classList.add('show'); }); }, 100);
+            document.querySelectorAll('.section .animate, .section .animate-scale, .section .animate-left, .section .animate-right, .section .card').forEach(function(el) { observer.observe(el); });
+        });
     </script>
 </body>
 </html>`;
