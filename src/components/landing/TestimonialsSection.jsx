@@ -23,10 +23,6 @@ const testimonials = [
     text: "Tp smlm i cepat juga turn on, husband ckp kenapa ye tiba² sebelum ni tak macam ni pun 😊 bangun pagi muka banyak senyummm 😂😂",
     image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/fded03a00_IMG_0793.jpg",
   },
-  {
-    text: "I memang ada masalah dryness especially bila bersama 😭 Tp smlm i cepat juga turn on. I personally love the result. Alhamdulillah puas hati sgttt 🥰",
-    image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/9c73abb14_IMG_0797.jpg",
-  },
 ];
 
 export default function TestimonialsSection() {
