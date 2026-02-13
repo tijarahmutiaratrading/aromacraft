@@ -6,18 +6,15 @@ import ProblemsSection from "@/components/landing/ProblemsSection";
 import BenefitsSection from "@/components/landing/BenefitsSection";
 import VideoTestimonialSection from "@/components/landing/VideoTestimonialSection";
 import TestimonialsSection from "@/components/landing/TestimonialsSection";
-import LuckyDrawSection from "@/components/landing/LuckyDrawSection";
 import IngredientsSection from "@/components/landing/IngredientsSection";
 import UsageSection from "@/components/landing/UsageSection";
 import BeforeAfterSection from "@/components/landing/BeforeAfterSection";
-import FounderStorySection from "@/components/landing/FounderStorySection";
 import CertificateSection from "@/components/landing/CertificateSection";
 import GuaranteeSection from "@/components/landing/GuaranteeSection";
 import PricingSection from "@/components/landing/PricingSection";
 import FAQSection from "@/components/landing/FAQSection";
 import FooterSection from "@/components/landing/FooterSection";
 import CTABreak from "@/components/landing/CTABreak";
-import FloatingWhatsAppButton from "@/components/landing/FloatingWhatsAppButton";
 
 export default function Home() {
   return (
@@ -31,18 +28,15 @@ export default function Home() {
       <VideoTestimonialSection />
       <TestimonialsSection />
       <CTABreak />
-      <LuckyDrawSection />
       <IngredientsSection />
       <UsageSection />
       <BeforeAfterSection />
-      <FounderStorySection />
       <CertificateSection />
       <CTABreak />
       <GuaranteeSection />
       <PricingSection />
       <FAQSection />
       <FooterSection />
-      <FloatingWhatsAppButton />
     </div>
   );
 }
