@@ -12,7 +12,6 @@ import GuaranteeSection from "@/components/landing/GuaranteeSection";
 import PricingSection from "@/components/landing/PricingSection";
 import FAQSection from "@/components/landing/FAQSection";
 import FooterSection from "@/components/landing/FooterSection";
-import StickyCTA from "@/components/landing/StickyCTA.jsx";
 import CTABreak from "@/components/landing/CTABreak.jsx";
 
 export default function Home() {
@@ -33,7 +32,6 @@ export default function Home() {
       <PricingSection />
       <FAQSection />
       <FooterSection />
-      <StickyCTA />
     </div>
   );
 }
