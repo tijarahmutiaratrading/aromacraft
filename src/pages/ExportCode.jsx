@@ -96,11 +96,17 @@ export default function ExportCode() {
         
         .hero-title {
             font-family: 'Georgia', serif;
-            font-size: clamp(3rem, 10vw, 7rem);
+            font-size: clamp(2.5rem, 10vw, 7rem);
             font-weight: 300;
-            letter-spacing: 0.15em;
+            letter-spacing: 0.1em;
             color: #5C1A33;
             margin-bottom: 24px;
+        }
+        
+        @media (min-width: 640px) {
+            .hero-title {
+                letter-spacing: 0.15em;
+            }
         }
         
         .hero-tagline {
@@ -122,21 +128,53 @@ export default function ExportCode() {
         
         .cta-buttons {
             display: flex;
-            gap: 16px;
+            flex-direction: column;
+            gap: 12px;
             justify-content: center;
-            flex-wrap: wrap;
-            margin-bottom: 40px;
+            align-items: stretch;
+            margin-bottom: 32px;
+            padding: 0 16px;
+        }
+        
+        @media (min-width: 640px) {
+            .cta-buttons {
+                flex-direction: row;
+                gap: 16px;
+                align-items: center;
+                margin-bottom: 40px;
+            }
+            
+            .cta-buttons .btn {
+                width: auto;
+            }
+        }
+        
+        .cta-buttons .btn {
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
         }
         
         .btn {
-            padding: 16px 40px;
+            padding: 14px 24px;
             border-radius: 50px;
             font-weight: 600;
             text-decoration: none;
             transition: all 0.3s;
             display: inline-flex;
             align-items: center;
+            justify-content: center;
             gap: 8px;
+            font-size: 15px;
+            min-height: 48px;
+            touch-action: manipulation;
+        }
+        
+        @media (min-width: 640px) {
+            .btn {
+                padding: 16px 40px;
+                font-size: 16px;
+            }
         }
         
         .btn-primary {
@@ -624,22 +662,105 @@ export default function ExportCode() {
         }
         
         @media (max-width: 768px) {
+            body {
+                font-size: 14px;
+            }
+            
             .hero-title {
-                font-size: 3rem;
+                font-size: 2.5rem;
             }
             
             section {
-                padding: 60px 0;
+                padding: 48px 0;
             }
             
-            .cta-buttons {
-                flex-direction: column;
+            .container {
+                padding: 0 16px;
+            }
+            
+            .section-title {
+                font-size: 1.75rem;
             }
             
             .usage-tabs {
                 justify-content: flex-start;
                 overflow-x: auto;
                 padding-bottom: 10px;
+                -webkit-overflow-scrolling: touch;
+            }
+            
+            .usage-tab {
+                white-space: nowrap;
+                flex-shrink: 0;
+            }
+            
+            .problem-card,
+            .benefit-card,
+            .testimonial-card,
+            .ingredient-card,
+            .result-card {
+                padding: 24px;
+            }
+            
+            .pricing-card {
+                padding: 24px;
+            }
+            
+            .package-price {
+                font-size: 36px;
+            }
+            
+            .hero-content {
+                padding: 40px 0;
+            }
+            
+            .testimonial-banner {
+                padding: 10px 16px;
+                font-size: 12px;
+            }
+            
+            .hero-desc {
+                font-size: 15px;
+            }
+            
+            .guarantee-box {
+                padding: 40px 24px;
+            }
+            
+            .guarantee-box h2 {
+                font-size: 24px;
+            }
+            
+            .footer-cta {
+                padding: 40px 24px;
+            }
+            
+            .footer-cta h2 {
+                font-size: 24px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .hero-title {
+                font-size: 2rem;
+                letter-spacing: 0.05em;
+            }
+            
+            .section-title {
+                font-size: 1.5rem;
+            }
+            
+            .problems-grid,
+            .benefits-grid,
+            .video-grid,
+            .testimonials-grid,
+            .ingredients-grid,
+            .results-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .pricing-grid {
+                grid-template-columns: 1fr;
             }
         }
     </style>
@@ -656,8 +777,8 @@ export default function ExportCode() {
     
     <div class="hero-content">
         <div class="testimonial-banner">
-            <span>⭐⭐⭐⭐⭐</span>
-            <span style="color: #5C1A33; font-weight: 500;">"Suami cakap lain sekarang..."</span>
+            <span style="font-size: 12px;">⭐⭐⭐⭐⭐</span>
+            <span style="color: #5C1A33; font-weight: 500; font-size: 12px;">"Suami cakap lain sekarang..."</span>
         </div>
         
         <h1 class="hero-title">WOOMAN</h1>
@@ -676,13 +797,22 @@ export default function ExportCode() {
             </a>
         </div>
         
-        <div style="margin-top: 40px; color: rgba(92, 26, 51, 0.6); font-size: 14px;">
-            <div style="display: flex; gap: 40px; justify-content: center; flex-wrap: wrap;">
-                <div>✅ 100% Certified Organic</div>
-                <div>✅ KKM Approved</div>
-                <div>✅ 2,847+ Pengguna Malaysia</div>
+        <div style="margin-top: 32px; color: rgba(92, 26, 51, 0.6); font-size: 13px;">
+            <div style="display: flex; flex-direction: column; gap: 12px; justify-content: center; align-items: center;">
+                <div style="display: flex; align-items: center; gap: 8px;">✅ 100% Certified Organic</div>
+                <div style="display: flex; align-items: center; gap: 8px;">✅ KKM Approved</div>
+                <div style="display: flex; align-items: center; gap: 8px;">✅ 2,847+ Pengguna</div>
             </div>
         </div>
+        
+        <style>
+            @media (min-width: 640px) {
+                .hero-content > div:last-child > div {
+                    flex-direction: row !important;
+                    gap: 40px !important;
+                }
+            }
+        </style>
     </div>
 </section>
 
