@@ -57,8 +57,15 @@ const packages = [
 
 export default function PricingSection() {
   return (
-    <section id="order" className="py-24 md:py-32 bg-gradient-to-b from-[#FCEDF0]/20 to-white">
-      <div className="max-w-5xl mx-auto px-6">
+    <section id="order" className="py-24 md:py-32 bg-gradient-to-b from-[#FCEDF0]/20 to-white relative overflow-hidden">
+      {/* COD Banner */}
+      <div className="absolute top-0 left-0 right-0 bg-gradient-to-r from-green-600 to-emerald-600 text-white py-3 text-center z-10">
+        <p className="text-sm md:text-base font-bold animate-pulse">
+          🚚 BAYAR BILA SAMPAI (COD) - Tak perlu risau, tengok dulu baru bayar!
+        </p>
+      </div>
+
+      <div className="pt-16 max-w-5xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -75,6 +82,21 @@ export default function PricingSection() {
           <div className="w-12 h-[1px] bg-[#C9A96E] mx-auto mb-6" />
           <p className="text-[#5C1A33]/60 text-sm md:text-base max-w-2xl mx-auto">
             <span className="font-medium text-[#5C1A33]">Free postage seluruh Malaysia.</span> Lebih banyak order, lebih banyak jimat! 💕
+          </p>
+        </motion.div>
+
+        {/* Money Back Guarantee Banner */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="max-w-2xl mx-auto mb-12 bg-gradient-to-r from-amber-50 to-yellow-50 border-2 border-amber-200 rounded-2xl p-6 text-center"
+        >
+          <div className="text-4xl mb-2">🛡️</div>
+          <h3 className="text-xl font-bold text-[#5C1A33] mb-2">100% JAMINAN WANG KEMBALI</h3>
+          <p className="text-[#5C1A33]/70 text-sm">
+            Tak puas hati? Dalam 30 hari, kami pulangkan 100% wang anda. No question asked!
           </p>
         </motion.div>
 

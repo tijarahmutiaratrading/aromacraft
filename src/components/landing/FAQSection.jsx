@@ -4,29 +4,45 @@ import { ChevronDown } from "lucide-react";
 
 const faqs = [
   {
-    q: "Wooman Perfume ni selamat ke untuk digunakan?",
-    a: "Ya, 100% selamat. Wooman Perfume diperbuat daripada bahan-bahan organik yang telah disahkan selamat (Certified Organic). Tiada bahan kimia berbahaya.",
+    q: "Selamat ke guna Wooman Intimate Perfume?",
+    a: "Ya! Wooman dibuat daripada 100% bahan organik dan telah lulus ujian KKM. Selamat untuk kegunaan luaran pada kawasan intim. Lebih 28,000+ wanita Malaysia dah guna tanpa masalah."
   },
   {
-    q: "Berapa lama nampak kesan?",
-    a: "Kebanyakan pengguna merasai kesan dalam penggunaan pertama terutamanya untuk kegunaan intimasi. Untuk kesan jangka panjang seperti keseimbangan hormon, disyorkan penggunaan konsisten selama 2-4 minggu.",
+    q: "Berapa lama nak nampak hasil?",
+    a: "Kebanyakan pengguna rasa perbezaan dalam masa 2-5 minit selepas penggunaan pertama! Basah terus, mood naik, dan lebih selesa. Untuk hasil optimum, gunakan secara konsisten setiap kali sebelum bersama."
   },
   {
-    q: "Boleh guna untuk ibu mengandung?",
-    a: "Disyorkan untuk berunding dengan doktor terlebih dahulu sebelum menggunakan sebarang produk semasa mengandung.",
+    q: "Boleh guna masa hamil atau menyusu?",
+    a: "Untuk ibu hamil dan menyusu, kami cadangkan berunding dengan doktor terlebih dahulu walaupun produk ini organik. Ramai pengguna guna lepas bersalin untuk bantu pulihkan kebasahan."
   },
   {
-    q: "Adakah produk ini ada kelulusan KKM?",
-    a: "Ya, produk Wooman telah mendapat kelulusan dan notification daripada KKM Malaysia.",
+    q: "Macam mana nak guna?",
+    a: "Senang je! Roll pada kawasan Miss V 5-10 minit sebelum bersama dengan suami. Goncang botol sebelum guna untuk hasil terbaik. Boleh guna setiap hari untuk jaga kesihatan intim."
   },
   {
-    q: "Berapa lama tahan satu botol?",
-    a: "Satu botol 10ml boleh tahan selama 1-2 bulan bergantung kepada kekerapan penggunaan.",
+    q: "Ada jaminan wang kembali?",
+    a: "Ya! Kami beri jaminan 30 hari. Kalau tak puas hati atau ada masalah, kami pulangkan 100% wang anda tanpa soal apa-apa. Kami yakin dengan kualiti produk kami!"
   },
   {
-    q: "Boleh guna setiap hari?",
-    a: "Ya, Wooman Perfume selamat untuk kegunaan harian. Malah, penggunaan konsisten memberikan kesan yang lebih baik.",
+    q: "Berapa botol saya perlu beli?",
+    a: "1 botol tahan 1-2 bulan untuk penggunaan biasa. Ramai order 3-4 botol sebab nak jimat dan takut kehabisan stok. Plus dapat free gifts lagi!"
   },
+  {
+    q: "Kenapa harga ni mahal sikit dari produk lain?",
+    a: "Wooman guna 100% bahan organik premium yang diimport khas. Kami tak guna bahan kimia murah atau berbahaya. Kualiti yang sis dapat memang berbaloi - hasil pantas dan selamat!"
+  },
+  {
+    q: "Saya dah cuba banyak produk tapi tak berkesan. Wooman ni lain ke?",
+    a: "Wooman berbeza sebab formula unik kami hasil 15 tahun kajian. Ramai yang dah cuba macam-macam produk testimoni Wooman paling berkesan. Cuba sendiri dengan jaminan wang kembali!"
+  },
+  {
+    q: "Suami boleh tahu ke saya pakai perfume ni?",
+    a: "Wooman ada wangi lembut yang sedap, tapi tak ketara sangat. Suami cuma rasa sis lebih basah dan mood naik - dia ingat natural! 😊"
+  },
+  {
+    q: "Berapa lama masa penghantaran?",
+    a: "Penghantaran 2-5 hari bekerja ke seluruh Malaysia. Kami hantar guna courier terpercaya. Tracking number akan diberi selepas hantar."
+  }
 ];
 
 export default function FAQSection() {
