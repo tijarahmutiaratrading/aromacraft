@@ -4,10 +4,6 @@ import { Star, MessageCircle } from "lucide-react";
 
 const testimonials = [
   {
-    text: "My husben cum kan i dulu then baru dia..im also cum for the 2nd time 😍😍 Stress terus hilang 🥰",
-    image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/803030ad5_IMG_0788.jpg",
-  },
-  {
     text: "Sebelum ni kan pakai thewooman. Tp mywooman ni penangan wetness die teruk gile kottt 😍 2 malam berturut² klimaks lebih 10 kali",
     image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/4977fb901_IMG_0789.jpg",
   },
