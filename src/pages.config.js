@@ -49,11 +49,13 @@
  */
 import ExportCode from './pages/ExportCode';
 import Home from './pages/Home';
+import ExportHTML from './pages/ExportHTML';
 
 
 export const PAGES = {
     "ExportCode": ExportCode,
     "Home": Home,
+    "ExportHTML": ExportHTML,
 }
 
 export const pagesConfig = {
