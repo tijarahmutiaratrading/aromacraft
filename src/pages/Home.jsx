@@ -28,11 +28,10 @@ export default function Home() {
       <TestimonialsSection />
       <CTABreak />
       <IngredientsSection />
-      <UsageSection />
       <DetailedUsageGuide />
-      <BeforeAfterSection />
       <CertificateSection />
       <CTABreak />
+      <BeforeAfterSection />
       <GuaranteeSection />
       <PricingSection />
       <FAQSection />
