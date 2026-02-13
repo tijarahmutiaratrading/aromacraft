@@ -4,7 +4,6 @@ import ProblemsSection from "@/components/landing/ProblemsSection";
 import SeriousIssuesSection from "@/components/landing/SeriousIssuesSection";
 import BenefitsSection from "@/components/landing/BenefitsSection";
 import VideoTestimonialSection from "@/components/landing/VideoTestimonialSection";
-import ArtistTestimonials from "@/components/landing/ArtistTestimonials";
 import TestimonialsSection from "@/components/landing/TestimonialsSection";
 import IngredientsSection from "@/components/landing/IngredientsSection";
 import UsageSection from "@/components/landing/UsageSection";
@@ -26,7 +25,6 @@ export default function Home() {
       <BenefitsSection />
       <CTABreak />
       <VideoTestimonialSection />
-      <ArtistTestimonials />
       <TestimonialsSection />
       <CTABreak />
       <IngredientsSection />
