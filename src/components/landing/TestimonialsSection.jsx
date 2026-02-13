@@ -4,20 +4,24 @@ import { Star, MessageCircle } from "lucide-react";
 
 const testimonials = [
   {
-    text: "Sebelum ni kan pakai thewooman. Tp mywooman ni penangan wetness die teruk gile kottt 😍 2 malam berturut² klimaks lebih 10 kali",
-    image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/4977fb901_IMG_0789.jpg",
+    text: "Sangat wet. My husben cum kan i dulu then baru die but when he cum..im also cum for the 2nd time 😍😍 Stress terus hilang 🥰",
+    image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/57f4e861c_IMG_0790.jpg",
   },
   {
-    text: "After i using MyWooman, mmg WOW 🤩 baru 1st time roll dkt private area, dia punya basah mmg sampai husband pun tegur. Siapa sangka benda ni sgt2 membantu! 🥰",
-    image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/454b695b8_IMG_0785.jpg",
+    text: "Yupppss!! Hehehe betoi. Lpsni bersalin nnt konfem guna kerap hehe. Ahhaaaahaaa... Smbung balik 'perjuangan' yg blom selesai 👏😍😍",
+    image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/2c1e39c22_IMG_0791.jpg",
   },
   {
-    text: "Yes mmg bile dh hujung² bsalin ni bgs je kerap bsame dear. Mudah²an lancar laluan baby nak kluar 😍😍",
-    image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/31f6dc2c3_IMG_0791.jpg",
+    text: "After i using MyWooman, mmg WOW 🤩 baru 1st time roll dkt private area, dia punya basah mmg sampai husband pun tegur 'basahnya u sygg' 😭",
+    image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/a621ef1f2_IMG_0792.jpg",
   },
   {
-    text: "Tp smlm i cepat juga turn on, husband ckp kenapa ye tiba² sebelum ni tak macam ni pun 😊 bangun pagi muka banyak senyummm 😂😂",
-    image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/fded03a00_IMG_0793.jpg",
+    text: "Tp smlm i cepat juga turn on, husband ckp kenapa ye tiba² sebelum ni tak macam ni pun 😁😂 bangun pagi muka banyak senyummm 😂😂",
+    image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/e780a555c_IMG_0793.jpg",
+  },
+  {
+    text: "Sebelum ni kan pakai thewooman. Tp mywooman ni penangan wetness die teruk gile kottt. 2 malam berturut² klimaks lebih 10 kali 😍",
+    image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/698c05d2118f14d14ebf9ee2/e69aeb1af_IMG_0789.jpg",
   },
 ];
 
