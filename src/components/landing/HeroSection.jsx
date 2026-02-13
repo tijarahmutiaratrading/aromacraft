@@ -46,13 +46,13 @@ export default function HeroSection() {
         ))}
       </div>
 
-      <div className="relative z-10 text-center px-6 max-w-3xl mx-auto">
+      <div className="relative z-10 text-center px-4 sm:px-6 max-w-3xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <p className="text-[#C9A96E] tracking-[0.35em] uppercase text-xs md:text-sm font-medium mb-6">
+          <p className="text-[#C9A96E] tracking-[0.25em] sm:tracking-[0.35em] uppercase text-[10px] sm:text-xs md:text-sm font-medium mb-4 sm:mb-6">
             Intimate Organic Perfume
           </p>
         </motion.div>
@@ -61,7 +61,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.15 }}
-          className="text-5xl md:text-7xl lg:text-8xl font-light tracking-[0.15em] text-[#5C1A33] mb-6"
+          className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-light tracking-[0.1em] sm:tracking-[0.15em] text-[#5C1A33] mb-4 sm:mb-6"
           style={{ fontFamily: "'Georgia', serif" }}
         >
           WOOMAN
@@ -71,14 +71,14 @@ export default function HeroSection() {
           initial={{ opacity: 0, width: 0 }}
           animate={{ opacity: 1, width: 80 }}
           transition={{ duration: 0.6, delay: 0.3 }}
-          className="h-[1px] bg-[#C9A96E] mx-auto mb-6"
+          className="h-[1px] bg-[#C9A96E] mx-auto mb-4 sm:mb-6"
         />
 
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-[#5C1A33]/70 text-lg md:text-xl font-light leading-relaxed max-w-xl mx-auto mb-4"
+          className="text-[#5C1A33]/70 text-base sm:text-lg md:text-xl font-light leading-relaxed max-w-xl mx-auto mb-3 sm:mb-4"
         >
           Rahsia Intimasi Wanita
         </motion.p>
@@ -87,7 +87,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
-          className="text-[#5C1A33]/50 text-sm md:text-base font-light leading-relaxed max-w-lg mx-auto mb-10"
+          className="text-[#5C1A33]/50 text-sm sm:text-base font-light leading-relaxed max-w-lg mx-auto mb-8 sm:mb-10"
         >
           Formulasi khas 100% organik membantu mengatasi masalah dalaman dan luaran wanita. 
           Bangkitkan sensasi bersama suami.
@@ -97,27 +97,27 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="space-y-4"
+          className="space-y-3 sm:space-y-4"
         >
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 sm:gap-4">
             <a
               href="#order"
-              className="group relative px-10 py-4 bg-[#5C1A33] text-white text-sm tracking-[0.2em] uppercase rounded-full overflow-hidden transition-all duration-500 hover:shadow-xl hover:shadow-[#5C1A33]/20 hover:scale-105 animate-pulse"
+              className="group relative px-6 sm:px-10 py-3 sm:py-4 bg-[#5C1A33] text-white text-xs sm:text-sm tracking-[0.15em] sm:tracking-[0.2em] uppercase rounded-full overflow-hidden transition-all duration-500 hover:shadow-xl hover:shadow-[#5C1A33]/20 hover:scale-105 animate-pulse touch-manipulation min-h-[48px] flex items-center justify-center"
             >
-              <span className="relative z-10">🔥 Order Sekarang - Jimat Hingga RM300</span>
+              <span className="relative z-10">🔥 Order Sekarang - Jimat RM300</span>
               <div className="absolute inset-0 bg-[#C9A96E] transform translate-y-full group-hover:translate-y-0 transition-transform duration-500" />
             </a>
             <a
               href="#masalah"
-              className="px-10 py-4 text-[#5C1A33]/60 text-sm tracking-[0.2em] uppercase border border-[#5C1A33]/15 rounded-full hover:border-[#C9A96E] hover:text-[#C9A96E] transition-all duration-300"
+              className="px-6 sm:px-10 py-3 sm:py-4 text-[#5C1A33]/60 text-xs sm:text-sm tracking-[0.15em] sm:tracking-[0.2em] uppercase border border-[#5C1A33]/15 rounded-full hover:border-[#C9A96E] hover:text-[#C9A96E] transition-all duration-300 touch-manipulation min-h-[48px] flex items-center justify-center"
             >
               Ketahui Lebih
             </a>
           </div>
-          <div className="flex items-center justify-center gap-2 text-sm">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-2 text-xs sm:text-sm">
             <div className="flex -space-x-2">
               {[1,2,3,4].map((i) => (
-                <div key={i} className="w-8 h-8 rounded-full bg-gradient-to-br from-[#E8A0BF] to-[#C9A96E] border-2 border-white" />
+                <div key={i} className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-gradient-to-br from-[#E8A0BF] to-[#C9A96E] border-2 border-white" />
               ))}
             </div>
             <span className="text-[#5C1A33]/60 text-xs">
@@ -131,12 +131,12 @@ export default function HeroSection() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.9 }}
-          className="flex items-center justify-center gap-6 md:gap-10 mt-14"
+          className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 md:gap-10 mt-10 sm:mt-14"
         >
           {["100% Organik", "Certified Safe", "KKM Approved"].map((badge, i) => (
             <div key={i} className="flex items-center gap-2">
               <div className="w-1.5 h-1.5 rounded-full bg-[#C9A96E]" />
-              <span className="text-[#5C1A33]/40 text-xs tracking-wider uppercase">{badge}</span>
+              <span className="text-[#5C1A33]/40 text-[10px] sm:text-xs tracking-wider uppercase">{badge}</span>
             </div>
           ))}
         </motion.div>
