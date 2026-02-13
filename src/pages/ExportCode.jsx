@@ -1572,72 +1572,96 @@ export default function ExportCode() {
     <div class="container">
         <div class="section-header">
             <p class="section-label">Masalah Wanita</p>
-            <h2 class="section-title">Sis Ada Masalah Ni Ke?</h2>
+            <h2 class="section-title">Sis Ada Masalah Kat Bawah Ni Ke?</h2>
             <div class="section-divider"></div>
             <p class="section-desc">
-                Jangan risau, sis bukan sorang. <span style="font-weight: 500; color: #5C1A33;">Ramai wanita hadapi masalah sama.</span> Dah cuba macam-macam tapi masih tak berkesan?
+                Dah try macam-macam produk... tapi masih <span style="font-weight: 500; color: #5C1A33;">tak ada yang berkesan</span> untuk masalah yang sis hadapi?
             </p>
         </div>
         
         <div class="grid grid-2">
             <div class="card">
-                <div class="icon-box" style="background-color: rgba(232, 160, 191, 0.08);">
-                    <svg class="icon" style="color: #E8A0BF;" viewBox="0 0 24 24">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <path d="M16 16s-1.5-2-4-2-4 2-4 2"></path>
-                        <line x1="9" y1="9" x2="9.01" y2="9"></line>
-                        <line x1="15" y1="9" x2="15.01" y2="9"></line>
-                    </svg>
-                </div>
+                <img src="https://intimateperfume.com/wp-content/uploads/2024/11/Kerap-sakit-belakang__20250417_162841_0000.png" 
+                     alt="Mati Putik" 
+                     style="width: 100%; height: 200px; object-fit: cover; border-radius: 12px; margin-bottom: 20px;">
                 <h3 class="card-title">Mati Putik & Hilang Nafsu</h3>
-                <p class="card-desc">Hilang ghairah semasa hubungan intim. Masalah ini sering memberi kesan kepada hubungan dengan suami.</p>
+                <p class="card-desc">Sis hilang nafsu atau tak rasa ghairah semasa hubungan intim. Problem ni boleh berlaku secara sementara sahaja, atau mungkin berpanjangan, dan sering kali beri kesan pada hubungan dengan suami.</p>
             </div>
             
             <div class="card">
-                <div class="icon-box" style="background-color: rgba(201, 169, 110, 0.08);">
-                    <svg class="icon" style="color: #C9A96E;" viewBox="0 0 24 24">
-                        <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
-                    </svg>
-                </div>
+                <img src="https://intimateperfume.com/wp-content/uploads/2024/11/Kerap-sakit-belakang__20250417_162841_0002.png" 
+                     alt="Miss V Kering" 
+                     style="width: 100%; height: 200px; object-fit: cover; border-radius: 12px; margin-bottom: 20px;">
                 <h3 class="card-title">Miss V Kering</h3>
-                <p class="card-desc">Rasa tak selesa, gatal, pedih atau sakit semasa bersama suami. Mengganggu keyakinan diri.</p>
+                <p class="card-desc">Sis selalu rasa tak selesa, gatal-gatal, pedih, atau sakit di bahagian Miss V semasa bersama suami. Problem ni boleh mengganggu hubungan dengan suami, dan berpotensi menjejaskan keyakinan diri sis.</p>
             </div>
             
             <div class="card">
-                <div class="icon-box" style="background-color: rgba(184, 160, 210, 0.08);">
-                    <svg class="icon" style="color: #B8A0D2;" viewBox="0 0 24 24">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
-                        <line x1="12" y1="17" x2="12.01" y2="17"></line>
-                    </svg>
-                </div>
-                <h3 class="card-title">Selalu Moody & Stress</h3>
-                <p class="card-desc">Emosi mudah terganggu, malas nak buat kerja. Dalaman rasa tak stabil dan tertekan.</p>
+                <img src="https://intimateperfume.com/wp-content/uploads/2024/11/Kerap-sakit-belakang__20250417_162841_0001.png" 
+                     alt="Selalu Moody" 
+                     style="width: 100%; height: 200px; object-fit: cover; border-radius: 12px; margin-bottom: 20px;">
+                <h3 class="card-title">Selalu Moody</h3>
+                <p class="card-desc">Emosi jadi mudah terganggu dan juga rasa malas nak buat kerja rumah. Dalaman rasa tak stabil.</p>
             </div>
             
             <div class="card">
-                <div class="icon-box" style="background-color: rgba(232, 160, 191, 0.08);">
-                    <svg class="icon" style="color: #E8A0BF;" viewBox="0 0 24 24">
-                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
-                    </svg>
-                </div>
-                <h3 class="card-title">Sakit Senggugut</h3>
-                <p class="card-desc">Kerap mengalami sakit di bahagian bawah perut semasa haid, mengganggu aktiviti harian.</p>
+                <img src="https://intimateperfume.com/wp-content/uploads/2024/11/Kerap-sakit-belakang__20250417_162841_0003.png" 
+                     alt="Period Pain" 
+                     style="width: 100%; height: 200px; object-fit: cover; border-radius: 12px; margin-bottom: 20px;">
+                <h3 class="card-title">Period Pain</h3>
+                <p class="card-desc">Sis kerap kali mengalami Period Pain (Senggugut) di bahagian bawah perut semasa datang haid, yang mengganggu aktiviti dan jadual harian.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Serius Section -->
+<section class="section" style="background: linear-gradient(180deg, white 0%, rgba(252, 237, 240, 0.2) 100%);">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Serius Ke Masalah Tu Sis?</h2>
+            <div class="section-divider"></div>
+        </div>
+        
+        <div class="grid grid-2">
+            <div class="card">
+                <img src="https://intimateperfume.com/wp-content/uploads/2024/11/474618084_122156789066292366_4109968974446218990_n.jpg" 
+                     alt="Mati putik masalah ramai wanita" 
+                     style="width: 100%; height: 250px; object-fit: cover; border-radius: 12px; margin-bottom: 20px;">
+                <h3 class="card-title">Mati putik antara masalah ramai wanita</h3>
+                <p class="card-desc">Kadang masalah mati putik adalah punca berlaku penceraian yang berpunca dari masalah dryness atau susah klimaks</p>
+            </div>
+            
+            <div class="card">
+                <img src="https://intimateperfume.com/wp-content/uploads/2024/11/bahaya-keputihan-kepada-wanita-kemandulan-keguguran.png" 
+                     alt="Keputihan melampau" 
+                     style="width: 100%; height: 250px; object-fit: cover; border-radius: 12px; margin-bottom: 20px;">
+                <h3 class="card-title">Keputihan melampau</h3>
+                <p class="card-desc">Sis tahu ke ye keputihan melampau boleh menyebabkan masalah kesihatan untuk sis</p>
             </div>
         </div>
     </div>
 </section>
 
 <!-- Benefits Section -->
-<section class="section" style="background: linear-gradient(180deg, rgba(252, 237, 240, 0.3) 0%, white 100%);">
+<section class="section" style="background: white;">
     <div class="container">
         <div class="section-header">
             <p class="section-label">Kelebihan</p>
-            <h2 class="section-title">Wooman - Penyelesaian Semulajadi</h2>
+            <h2 class="section-title">Bagaimana Wooman Membantu Selesaikan Masalah Sis Tadi? 🥰</h2>
             <div class="section-divider"></div>
-            <p class="section-desc">
-                <span style="font-weight: 500; color: #5C1A33;">100% organik & selamat.</span> Formulasi khas membantu wanita atasi masalah dalaman & luaran secara semulajadi.
-            </p>
+        </div>
+        
+        <div class="product-showcase" style="margin-bottom: 48px;">
+            <img src="https://intimateperfume.com/wp-content/uploads/2024/11/MW-TW-1-1024x1024-1.png" 
+                 alt="Wooman Product" 
+                 class="product-image">
+        </div>
+        
+        <div class="section-header">
+            <h3 style="font-size: 1.5rem; color: #5C1A33; margin-bottom: 32px; font-weight: 400;">
+                Wooman direka khas untuk Wanita bagi membantu mengatasi masalah majoriti wanita masa kini.
+            </h3>
         </div>
         
         <div class="grid grid-3">
