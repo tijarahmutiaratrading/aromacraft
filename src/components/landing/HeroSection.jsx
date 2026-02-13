@@ -47,16 +47,6 @@ export default function HeroSection() {
       </div>
 
       <div className="relative z-10 text-center px-4 sm:px-6 max-w-3xl mx-auto">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-        >
-          <p className="text-[#C9A96E] tracking-[0.25em] sm:tracking-[0.35em] uppercase text-[10px] sm:text-xs md:text-sm font-medium mb-4 sm:mb-6">
-            Intimate Organic Perfume
-          </p>
-        </motion.div>
-
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -83,20 +73,37 @@ export default function HeroSection() {
           Rahsia Intimasi Wanita
         </motion.p>
 
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8, delay: 0.5 }}
+          className="max-w-xl mx-auto mb-6 sm:mb-8"
+        >
+          <video
+            className="w-full rounded-2xl shadow-2xl"
+            autoPlay
+            muted
+            loop
+            playsInline
+            poster="https://intimateperfume.com/wp-content/uploads/2024/11/2_20250417_152856_0000.png"
+          >
+            <source src="https://intimateperfume.com/wp-content/uploads/2025/08/Wooman-Organic-Perfume-Kesan-Sepantas-2-Minit-CIk-Bunga-Dah-Berayaq.mp4" type="video/mp4" />
+          </video>
+        </motion.div>
+
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.5 }}
-          className="text-[#5C1A33]/50 text-sm sm:text-base font-light leading-relaxed max-w-lg mx-auto mb-8 sm:mb-10"
+          transition={{ duration: 0.8, delay: 0.6 }}
+          className="text-[#5C1A33] text-base sm:text-lg md:text-xl font-medium leading-relaxed max-w-lg mx-auto mb-8 sm:mb-10"
         >
-          Formulasi khas 100% organik membantu mengatasi masalah dalaman dan luaran wanita. 
-          Bangkitkan sensasi bersama suami.
+          Alhamdulillah… Calit sikit je terus turn on. Tak perlu risau lagi masalah Wetness & dan kurang basah! 🥰
         </motion.p>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
+          transition={{ duration: 0.8, delay: 0.7 }}
           className="space-y-3 sm:space-y-4"
         >
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 sm:gap-4">
