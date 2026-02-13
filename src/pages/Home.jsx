@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
-import UrgencyBanner from "@/components/landing/UrgencyBanner";
 import HeroSection from "@/components/landing/HeroSection";
-import LiveCounter from "@/components/landing/LiveCounter";
 import ProblemsSection from "@/components/landing/ProblemsSection";
 import BenefitsSection from "@/components/landing/BenefitsSection";
 import VideoTestimonialSection from "@/components/landing/VideoTestimonialSection";
@@ -19,9 +17,7 @@ import CTABreak from "@/components/landing/CTABreak";
 export default function Home() {
   return (
     <div className="min-h-screen bg-white" style={{ fontFamily: "'Inter', system-ui, sans-serif" }}>
-      <UrgencyBanner />
       <HeroSection />
-      <LiveCounter />
       <ProblemsSection />
       <BenefitsSection />
       <CTABreak />
