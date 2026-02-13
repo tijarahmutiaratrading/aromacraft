@@ -6,7 +6,6 @@ import BenefitsSection from "@/components/landing/BenefitsSection";
 import VideoTestimonialSection from "@/components/landing/VideoTestimonialSection";
 import TestimonialsSection from "@/components/landing/TestimonialsSection";
 import IngredientsSection from "@/components/landing/IngredientsSection";
-import UsageSection from "@/components/landing/UsageSection";
 import DetailedUsageGuide from "@/components/landing/DetailedUsageGuide";
 import BeforeAfterSection from "@/components/landing/BeforeAfterSection";
 import CertificateSection from "@/components/landing/CertificateSection";
