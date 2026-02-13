@@ -202,60 +202,39 @@ export default function ExportHTML() {
     </div>
 </section>
 
-<!-- Artist Testimonials -->
-<section class="py-24 bg-white">
+<!-- Video Testimonials -->
+<section class="py-24 bg-gradient-to-b from-white to-pink-50">
     <div class="max-w-6xl mx-auto px-6">
         <div class="text-center mb-16 fade-in">
-            <p class="text-amber-600 tracking-widest uppercase text-xs font-medium mb-4">Testimoni Artis</p>
-            <h2 class="text-4xl font-light text-rose-900 mb-4" style="font-family: Georgia, serif;">Artis Pun Dah Ramai Yang Guna</h2>
+            <p class="text-amber-600 tracking-widest uppercase text-xs font-medium mb-4">Video Testimoni</p>
+            <h2 class="text-4xl font-light text-rose-900 mb-4" style="font-family: Georgia, serif;">Tengok Sendiri Hasil Sebenar</h2>
             <div class="w-12 h-px bg-amber-600 mx-auto"></div>
         </div>
         <div class="grid md:grid-cols-3 gap-6">
-            <div class="border-2 border-red-500 rounded-2xl overflow-hidden hover-scale">
-                <div class="bg-white p-2">
-                    <div class="relative">
-                        <h3 class="absolute top-4 left-4 z-10 text-xl font-bold text-white drop-shadow-lg">
-                            Membantu isu<br><span class="bg-red-600 px-2 py-1 rounded">dalaman</span> wanita
-                        </h3>
-                        <a href="https://youtube.com/watch?v=2n_l-sCKYig" target="_blank" class="block">
-                            <img src="https://intimateperfume.com/wp-content/uploads/2025/05/placeholder-5.png" class="w-full rounded-xl">
-                        </a>
-                    </div>
-                    <div class="bg-gradient-to-r from-pink-400 to-red-400 text-white px-4 py-3 rounded-b-xl mt-2">
-                        <p class="text-lg font-semibold">Syatilla Melvin</p>
-                    </div>
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover-scale">
+                <iframe width="100%" height="200" src="https://www.youtube.com/embed/2n_l-sCKYig" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="w-full"></iframe>
+                <div class="p-4 bg-gradient-to-r from-pink-400 to-red-400 text-white">
+                    <p class="font-semibold">Syatilla Melvin</p>
+                    <p class="text-xs opacity-90">Membantu isu dalaman wanita</p>
                 </div>
             </div>
-            <div class="border-2 border-red-500 rounded-2xl overflow-hidden hover-scale">
-                <div class="bg-white p-2">
-                    <div class="relative">
-                        <h3 class="absolute top-4 left-4 z-10 text-xl font-bold text-white drop-shadow-lg">
-                            Mengembalikan<br><span class="bg-red-600 px-2 py-1 rounded">kebasahan</span> isteri
-                        </h3>
-                        <a href="https://youtube.com/watch?v=CbYXGLesKfI" target="_blank" class="block">
-                            <img src="https://intimateperfume.com/wp-content/uploads/2025/05/placeholder-6.png" class="w-full rounded-xl">
-                        </a>
-                    </div>
-                    <div class="bg-gradient-to-r from-pink-400 to-red-400 text-white px-4 py-3 rounded-b-xl mt-2">
-                        <p class="text-lg font-semibold">Nur Khiriah</p>
-                    </div>
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover-scale">
+                <iframe width="100%" height="200" src="https://www.youtube.com/embed/CbYXGLesKfI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="w-full"></iframe>
+                <div class="p-4 bg-gradient-to-r from-pink-400 to-red-400 text-white">
+                    <p class="font-semibold">Nur Khiriah</p>
+                    <p class="text-xs opacity-90">Mengembalikan kebasahan</p>
                 </div>
             </div>
-            <div class="border-2 border-red-500 rounded-2xl overflow-hidden hover-scale">
-                <div class="bg-white p-2">
-                    <div class="relative">
-                        <h3 class="absolute top-4 left-4 z-10 text-xl font-bold text-white drop-shadow-lg">
-                            Menaikkan mood<br><span class="bg-red-600 px-2 py-1 rounded">bersama</span>
-                        </h3>
-                        <a href="https://youtube.com/watch?v=GRKK3RxANS0" target="_blank" class="block">
-                            <img src="https://intimateperfume.com/wp-content/uploads/2025/05/placeholder-7.png" class="w-full rounded-xl">
-                        </a>
-                    </div>
-                    <div class="bg-gradient-to-r from-pink-400 to-red-400 text-white px-4 py-3 rounded-b-xl mt-2">
-                        <p class="text-lg font-semibold">Tya Adnan</p>
-                    </div>
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover-scale">
+                <iframe width="100%" height="200" src="https://www.youtube.com/embed/GRKK3RxANS0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="w-full"></iframe>
+                <div class="p-4 bg-gradient-to-r from-pink-400 to-red-400 text-white">
+                    <p class="font-semibold">Tya Adnan</p>
+                    <p class="text-xs opacity-90">Menaikkan mood bersama</p>
                 </div>
             </div>
+        </div>
+        <div class="text-center mt-12 slide-up">
+            <p class="text-rose-900/50 text-sm">📹 28,000+ pengguna verified di seluruh Malaysia</p>
         </div>
     </div>
 </section>
