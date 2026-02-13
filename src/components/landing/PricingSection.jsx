@@ -8,6 +8,7 @@ const packages = [
     price: "RM79",
     originalPrice: "RM99",
     desc: "TheWooman Versi Mini",
+    image: "https://intimateperfume.com/wp-content/uploads/2025/05/IMG-20250525-WA0010.jpg",
     features: [
       "Versi MINI bagi TheWooman (sama formulasi)",
       "100% Organik, Vegan Certified dan Food-Grade",
@@ -26,6 +27,7 @@ const packages = [
     price: "RM150",
     originalPrice: "RM180",
     desc: "Signature Brand WOOMAN since 2018",
+    image: "https://intimateperfume.com/wp-content/uploads/2025/05/IMG-20250525-WA0012.jpg",
     features: [
       "20 Fungsi (juga sesuai untuk Kids & Baby)",
       "100% Organik, Vegan Certified & Food-Grade",
@@ -46,6 +48,7 @@ const packages = [
     price: "RM160",
     originalPrice: "RM297",
     desc: "3x BabyWooman",
+    image: "https://intimateperfume.com/wp-content/uploads/2024/11/f9965095-722b-49af-8d98-bbecf8be3961.jpeg",
     features: [
       "Recommended untuk First-Timer yang baru nak try",
       "Reserve 1 bottle di bathroom, 1 di handbag, 1 under pillow",
@@ -59,6 +62,7 @@ const packages = [
     price: "RM200",
     originalPrice: "RM250",
     desc: "TheWooman Versi Advanced",
+    image: "https://intimateperfume.com/wp-content/uploads/2025/05/IMG-20250525-WA0011.jpg",
     features: [
       "20 Fungsi (juga sesuai untuk Kids & Baby)",
       "100% Organik, Vegan Certified & Food-Grade",
@@ -78,6 +82,7 @@ const packages = [
     price: "RM250",
     originalPrice: "RM349",
     desc: "Combo Set",
+    image: "https://intimateperfume.com/wp-content/uploads/2025/05/IMG-20250510-WA00701-e1755753490154.jpg",
     features: [
       "Recommended untuk Married Woman, Nursing Moms, TTC",
       "Gunakan MyWooman untuk 18SX/intimacy",
@@ -93,6 +98,7 @@ const packages = [
     price: "RM300",
     originalPrice: "RM430",
     desc: "Combo Set Premium",
+    image: "https://intimateperfume.com/wp-content/uploads/2024/11/daab947d-16ba-4c89-9a0f-595226ab3ea1.jpeg",
     features: [
       "Recommended untuk Married Woman, Nursing Moms, TTC",
       "Gunakan MyWooman untuk 18SX/intimacy",
@@ -170,6 +176,16 @@ export default function PricingSection() {
                   <span className="bg-[#C9A96E] text-white text-[10px] tracking-[0.2em] uppercase px-4 py-1.5 rounded-full font-medium">
                     Popular
                   </span>
+                </div>
+              )}
+
+              {pkg.image && (
+                <div className="mb-6 -mx-8 -mt-8">
+                  <img 
+                    src={pkg.image} 
+                    alt={pkg.name}
+                    className="w-full h-48 object-cover rounded-t-3xl"
+                  />
                 </div>
               )}
 
