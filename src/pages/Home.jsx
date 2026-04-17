@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from "react";
 import HeroSection from "@/components/landing/HeroSection";
+import EmotionalIntroSection from "@/components/landing/EmotionalIntroSection";
 import ProblemsSection from "@/components/landing/ProblemsSection";
 import SeriousIssuesSection from "@/components/landing/SeriousIssuesSection";
+import NineKelebihanSection from "@/components/landing/NineKelebihanSection";
 import BenefitsSection from "@/components/landing/BenefitsSection";
+import NotJustPerfumeSection from "@/components/landing/NotJustPerfumeSection";
 import VideoTestimonialSection from "@/components/landing/VideoTestimonialSection";
 import TestimonialsSection from "@/components/landing/TestimonialsSection";
 import IngredientsSection from "@/components/landing/IngredientsSection";
@@ -19,9 +22,12 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white" style={{ fontFamily: "'Inter', system-ui, sans-serif" }}>
       <HeroSection />
+      <EmotionalIntroSection />
       <ProblemsSection />
       <SeriousIssuesSection />
+      <NineKelebihanSection />
       <BenefitsSection />
+      <NotJustPerfumeSection />
       <CTABreak />
       <VideoTestimonialSection />
       <TestimonialsSection />
